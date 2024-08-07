@@ -1,0 +1,966 @@
+2024-08-07 10:14:03,515 - INFO - Fetching all spells from the API.
+2024-08-07 10:14:04,167 - DEBUG - Retrieved spell list with 319 spells.
+2024-08-07 10:14:04,172 - INFO - Large data saved to spell_list.json
+2024-08-07 10:14:04,172 - INFO - Calculated optimal batch size: 50776
+2024-08-07 10:14:04,173 - INFO - Starting to fetch spell data with dynamic worker adjustment...
+2024-08-07 10:14:04,173 - INFO - Processing batch 1/1
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Acid Arrow
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Acid Splash
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Aid
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Alarm
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Alter Self
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Animal Friendship
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Animal Messenger
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Animal Shapes
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Animate Dead
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Animate Objects
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Antilife Shell
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Antimagic Field
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Antipathy/Sympathy
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Arcane Eye
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Arcane Hand
+2024-08-07 10:14:04,175 - DEBUG - Fetching data for spell: Arcane Lock
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Arcane Sword
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Arcanist's Magic Aura
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Astral Projection
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Augury
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Awaken
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Bane
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Banishment
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Barkskin
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Beacon of Hope
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Bestow Curse
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Black Tentacles
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Blade Barrier
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Bless
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Blight
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Blindness/Deafness
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Blink
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Blur
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Branding Smite
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Burning Hands
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Call Lightning
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Calm Emotions
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Chain Lightning
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Charm Person
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Chill Touch
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Circle of Death
+2024-08-07 10:14:04,176 - DEBUG - Fetching data for spell: Clairvoyance
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Clone
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Cloudkill
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Color Spray
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Command
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Commune
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Commune With Nature
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Comprehend Languages
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Compulsion
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Cone of Cold
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Confusion
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Conjure Animals
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Conjure Celestial
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Conjure Elemental
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Conjure Fey
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Conjure Minor Elementals
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Conjure Woodland Beings
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Contact Other Plane
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Contagion
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Contingency
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Continual Flame
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Control Water
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Control Weather
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Counterspell
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Create Food and Water
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Create or Destroy Water
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Create Undead
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Creation
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Cure Wounds
+2024-08-07 10:14:04,177 - DEBUG - Fetching data for spell: Dancing Lights
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Darkness
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Darkvision
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Daylight
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Death Ward
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Delayed Blast Fireball
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Demiplane
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Detect Evil and Good
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Detect Magic
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Detect Poison and Disease
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Detect Thoughts
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Dimension Door
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Disguise Self
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Disintegrate
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Dispel Evil and Good
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Dispel Magic
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Divination
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Divine Favor
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Divine Word
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Dominate Beast
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Dominate Monster
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Dominate Person
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Dream
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Druidcraft
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Earthquake
+2024-08-07 10:14:04,178 - DEBUG - Fetching data for spell: Eldritch Blast
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Enhance Ability
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Enlarge/Reduce
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Entangle
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Enthrall
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Etherealness
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Expeditious Retreat
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Eyebite
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Fabricate
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Faerie Fire
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Faithful Hound
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: False Life
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Fear
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Feather Fall
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Feeblemind
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Find Familiar
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Find Steed
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Find the Path
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Find Traps
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Finger of Death
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Fire Bolt
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Fire Shield
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Fire Storm
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Fireball
+2024-08-07 10:14:04,179 - DEBUG - Fetching data for spell: Flame Blade
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Flame Strike
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Flaming Sphere
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Flesh to Stone
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Floating Disk
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Fly
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Fog Cloud
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Forbiddance
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Forcecage
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Foresight
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Freedom of Movement
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Freezing Sphere
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Gaseous Form
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Gate
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Geas
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Gentle Repose
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Giant Insect
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Glibness
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Globe of Invulnerability
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Glyph of Warding
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Goodberry
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Grease
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Greater Invisibility
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Greater Restoration
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Guardian of Faith
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Guards and Wards
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Guidance
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Guiding Bolt
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Gust of Wind
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Hallow
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Hallucinatory Terrain
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Harm
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Haste
+2024-08-07 10:14:04,180 - DEBUG - Fetching data for spell: Heal
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Healing Word
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Heat Metal
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Hellish Rebuke
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Heroes' Feast
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Heroism
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Hideous Laughter
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Hold Monster
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Hold Person
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Holy Aura
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Hunter's Mark
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Hypnotic Pattern
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Ice Storm
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Identify
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Illusory Script
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Imprisonment
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Incendiary Cloud
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Inflict Wounds
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Insect Plague
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Instant Summons
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Invisibility
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Irresistible Dance
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Jump
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Knock
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Legend Lore
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Lesser Restoration
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Levitate
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Light
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Lightning Bolt
+2024-08-07 10:14:04,181 - DEBUG - Fetching data for spell: Locate Animals or Plants
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Locate Creature
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Locate Object
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Longstrider
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mage Armor
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mage Hand
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Magic Circle
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Magic Jar
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Magic Missile
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Magic Mouth
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Magic Weapon
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Magnificent Mansion
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Major Image
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mass Cure Wounds
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mass Heal
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mass Healing Word
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mass Suggestion
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Maze
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Meld Into Stone
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mending
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Message
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Meteor Swarm
+2024-08-07 10:14:04,182 - DEBUG - Fetching data for spell: Mind Blank
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Minor Illusion
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Mirage Arcane
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Mirror Image
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Mislead
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Misty Step
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Modify Memory
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Moonbeam
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Move Earth
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Nondetection
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Pass Without Trace
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Passwall
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Phantasmal Killer
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Phantom Steed
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Planar Ally
+2024-08-07 10:14:04,183 - DEBUG - Fetching data for spell: Planar Binding
+2024-08-07 10:14:04,184 - DEBUG - Fetching data for spell: Plane Shift
+2024-08-07 10:14:04,184 - DEBUG - Fetching data for spell: Plant Growth
+2024-08-07 10:14:04,184 - DEBUG - Fetching data for spell: Poison Spray
+2024-08-07 10:14:04,184 - DEBUG - Fetching data for spell: Polymorph
+2024-08-07 10:14:04,184 - DEBUG - Fetching data for spell: Power Word Kill
+2024-08-07 10:14:04,184 - DEBUG - Fetching data for spell: Power Word Stun
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Prayer of Healing
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Prestidigitation
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Prismatic Spray
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Prismatic Wall
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Private Sanctum
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Produce Flame
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Programmed Illusion
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Project Image
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Protection From Energy
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Protection from Evil and Good
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Protection from Poison
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Purify Food and Drink
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Raise Dead
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Ray of Enfeeblement
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Ray of Frost
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Regenerate
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Reincarnate
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Remove Curse
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Resilient Sphere
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Resistance
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Resurrection
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Reverse Gravity
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Revivify
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Rope Trick
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sacred Flame
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sanctuary
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Scorching Ray
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Scrying
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Secret Chest
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: See Invisibility
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Seeming
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sending
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sequester
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Shapechange
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Shatter
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Shield
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Shield of Faith
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Shillelagh
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Shocking Grasp
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Silence
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Silent Image
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Simulacrum
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sleep
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sleet Storm
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Slow
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Spare the Dying
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Speak with Animals
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Speak with Dead
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Speak with Plants
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Spider Climb
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Spike Growth
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Spirit Guardians
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Spiritual Weapon
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Stinking Cloud
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Stone Shape
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Stoneskin
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Storm of Vengeance
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Suggestion
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sunbeam
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Sunburst
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Symbol
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Telekinesis
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Telepathic Bond
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Teleport
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Teleportation Circle
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Thaumaturgy
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Thunderwave
+2024-08-07 10:14:04,185 - DEBUG - Fetching data for spell: Time Stop
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Tiny Hut
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Tongues
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Transport via Plants
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Tree Stride
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: True Polymorph
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: True Resurrection
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: True Seeing
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: True Strike
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Unseen Servant
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Vampiric Touch
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Vicious Mockery
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wall of Fire
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wall of Force
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wall of Ice
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wall of Stone
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wall of Thorns
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Warding Bond
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Water Breathing
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Water Walk
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Web
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Weird
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wind Walk
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wind Wall
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Wish
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Word of Recall
+2024-08-07 10:14:04,186 - DEBUG - Fetching data for spell: Zone of Truth
+2024-08-07 10:14:04,221 - DEBUG - Latency for acid-arrow: 0.04s
+2024-08-07 10:14:04,221 - DEBUG - Throughput for acid-arrow: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,254 - DEBUG - Latency for antilife-shell: 0.03s
+2024-08-07 10:14:04,254 - DEBUG - Throughput for antilife-shell: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,287 - DEBUG - Latency for antimagic-field: 0.03s
+2024-08-07 10:14:04,287 - DEBUG - Throughput for antimagic-field: 0.00 MB, 0.10 MB/s
+2024-08-07 10:14:04,298 - DEBUG - Latency for animal-messenger: 0.11s
+2024-08-07 10:14:04,298 - DEBUG - Throughput for animal-messenger: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,310 - DEBUG - Latency for aid: 0.12s
+2024-08-07 10:14:04,310 - DEBUG - Throughput for aid: 0.00 MB, 0.01 MB/s
+2024-08-07 10:14:04,316 - DEBUG - Latency for animate-dead: 0.13s
+2024-08-07 10:14:04,316 - DEBUG - Throughput for animate-dead: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,316 - DEBUG - Latency for acid-splash: 0.13s
+2024-08-07 10:14:04,316 - DEBUG - Throughput for acid-splash: 0.00 MB, 0.01 MB/s
+2024-08-07 10:14:04,321 - DEBUG - Latency for alarm: 0.13s
+2024-08-07 10:14:04,321 - DEBUG - Throughput for alarm: 0.00 MB, 0.01 MB/s
+2024-08-07 10:14:04,321 - DEBUG - Latency for animal-shapes: 0.13s
+2024-08-07 10:14:04,321 - DEBUG - Throughput for animal-shapes: 0.00 MB, 0.01 MB/s
+2024-08-07 10:14:04,329 - DEBUG - Latency for animate-objects: 0.14s
+2024-08-07 10:14:04,329 - DEBUG - Throughput for animate-objects: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,329 - DEBUG - Latency for alter-self: 0.14s
+2024-08-07 10:14:04,329 - DEBUG - Throughput for alter-self: 0.00 MB, 0.01 MB/s
+2024-08-07 10:14:04,330 - DEBUG - Latency for antipathy-sympathy: 0.04s
+2024-08-07 10:14:04,330 - DEBUG - Throughput for antipathy-sympathy: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:04,335 - DEBUG - Latency for animal-friendship: 0.15s
+2024-08-07 10:14:04,336 - DEBUG - Throughput for animal-friendship: 0.00 MB, 0.01 MB/s
+2024-08-07 10:14:04,336 - DEBUG - Latency for arcane-eye: 0.04s
+2024-08-07 10:14:04,336 - DEBUG - Throughput for arcane-eye: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,345 - DEBUG - Latency for arcane-hand: 0.04s
+2024-08-07 10:14:04,345 - DEBUG - Throughput for arcane-hand: 0.00 MB, 0.08 MB/s
+2024-08-07 10:14:04,348 - DEBUG - Latency for arcane-sword: 0.03s
+2024-08-07 10:14:04,348 - DEBUG - Throughput for arcane-sword: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,363 - DEBUG - Latency for arcane-lock: 0.05s
+2024-08-07 10:14:04,363 - DEBUG - Throughput for arcane-lock: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,369 - DEBUG - Latency for arcanists-magic-aura: 0.05s
+2024-08-07 10:14:04,370 - DEBUG - Throughput for arcanists-magic-aura: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,377 - DEBUG - Latency for bane: 0.05s
+2024-08-07 10:14:04,377 - DEBUG - Throughput for bane: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,377 - DEBUG - Latency for astral-projection: 0.06s
+2024-08-07 10:14:04,377 - DEBUG - Throughput for astral-projection: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,380 - DEBUG - Latency for barkskin: 0.04s
+2024-08-07 10:14:04,380 - DEBUG - Throughput for barkskin: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,381 - DEBUG - Latency for augury: 0.05s
+2024-08-07 10:14:04,382 - DEBUG - Throughput for augury: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,382 - DEBUG - Latency for banishment: 0.05s
+2024-08-07 10:14:04,382 - DEBUG - Throughput for banishment: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,387 - DEBUG - Latency for awaken: 0.06s
+2024-08-07 10:14:04,387 - DEBUG - Throughput for awaken: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,387 - DEBUG - Latency for bestow-curse: 0.04s
+2024-08-07 10:14:04,387 - DEBUG - Throughput for bestow-curse: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,387 - DEBUG - Latency for beacon-of-hope: 0.04s
+2024-08-07 10:14:04,387 - DEBUG - Throughput for beacon-of-hope: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,396 - DEBUG - Latency for black-tentacles: 0.03s
+2024-08-07 10:14:04,396 - DEBUG - Throughput for black-tentacles: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,397 - DEBUG - Latency for blade-barrier: 0.03s
+2024-08-07 10:14:04,397 - DEBUG - Throughput for blade-barrier: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,413 - DEBUG - Latency for blight: 0.03s
+2024-08-07 10:14:04,413 - DEBUG - Throughput for blight: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,414 - DEBUG - Latency for blink: 0.03s
+2024-08-07 10:14:04,414 - DEBUG - Throughput for blink: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,414 - DEBUG - Latency for bless: 0.04s
+2024-08-07 10:14:04,414 - DEBUG - Throughput for bless: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,416 - DEBUG - Latency for blindness-deafness: 0.04s
+2024-08-07 10:14:04,416 - DEBUG - Throughput for blindness-deafness: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,422 - DEBUG - Latency for blur: 0.04s
+2024-08-07 10:14:04,422 - DEBUG - Throughput for blur: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,422 - DEBUG - Latency for burning-hands: 0.03s
+2024-08-07 10:14:04,423 - DEBUG - Throughput for burning-hands: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,423 - DEBUG - Latency for branding-smite: 0.04s
+2024-08-07 10:14:04,423 - DEBUG - Throughput for branding-smite: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,433 - DEBUG - Latency for call-lightning: 0.05s
+2024-08-07 10:14:04,433 - DEBUG - Throughput for call-lightning: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,435 - DEBUG - Latency for chain-lightning: 0.04s
+2024-08-07 10:14:04,436 - DEBUG - Throughput for chain-lightning: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,436 - DEBUG - Latency for calm-emotions: 0.04s
+2024-08-07 10:14:04,436 - DEBUG - Throughput for calm-emotions: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,442 - DEBUG - Latency for chill-touch: 0.03s
+2024-08-07 10:14:04,442 - DEBUG - Throughput for chill-touch: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,451 - DEBUG - Latency for charm-person: 0.04s
+2024-08-07 10:14:04,451 - DEBUG - Throughput for charm-person: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,452 - DEBUG - Latency for circle-of-death: 0.04s
+2024-08-07 10:14:04,452 - DEBUG - Throughput for circle-of-death: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,459 - DEBUG - Latency for clairvoyance: 0.04s
+2024-08-07 10:14:04,459 - DEBUG - Throughput for clairvoyance: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,459 - DEBUG - Latency for cloudkill: 0.04s
+2024-08-07 10:14:04,459 - DEBUG - Throughput for cloudkill: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,459 - DEBUG - Latency for color-spray: 0.04s
+2024-08-07 10:14:04,459 - DEBUG - Throughput for color-spray: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,459 - DEBUG - Latency for clone: 0.04s
+2024-08-07 10:14:04,459 - DEBUG - Throughput for clone: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,468 - DEBUG - Latency for command: 0.03s
+2024-08-07 10:14:04,468 - DEBUG - Throughput for command: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:04,469 - DEBUG - Latency for commune: 0.03s
+2024-08-07 10:14:04,469 - DEBUG - Throughput for commune: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,471 - DEBUG - Latency for commune-with-nature: 0.03s
+2024-08-07 10:14:04,471 - DEBUG - Throughput for commune-with-nature: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,471 - DEBUG - Latency for comprehend-languages: 0.03s
+2024-08-07 10:14:04,471 - DEBUG - Throughput for comprehend-languages: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,486 - DEBUG - Latency for cone-of-cold: 0.03s
+2024-08-07 10:14:04,486 - DEBUG - Throughput for cone-of-cold: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,487 - DEBUG - Latency for compulsion: 0.04s
+2024-08-07 10:14:04,487 - DEBUG - Throughput for compulsion: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,492 - DEBUG - Latency for conjure-celestial: 0.03s
+2024-08-07 10:14:04,492 - DEBUG - Throughput for conjure-celestial: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,492 - DEBUG - Latency for conjure-elemental: 0.03s
+2024-08-07 10:14:04,492 - DEBUG - Throughput for conjure-elemental: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:04,492 - DEBUG - Latency for confusion: 0.03s
+2024-08-07 10:14:04,493 - DEBUG - Throughput for confusion: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:04,493 - DEBUG - Latency for conjure-animals: 0.03s
+2024-08-07 10:14:04,493 - DEBUG - Throughput for conjure-animals: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,504 - DEBUG - Latency for conjure-minor-elementals: 0.03s
+2024-08-07 10:14:04,504 - DEBUG - Throughput for conjure-minor-elementals: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,504 - DEBUG - Latency for conjure-woodland-beings: 0.03s
+2024-08-07 10:14:04,504 - DEBUG - Throughput for conjure-woodland-beings: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,504 - DEBUG - Latency for conjure-fey: 0.04s
+2024-08-07 10:14:04,504 - DEBUG - Throughput for conjure-fey: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,510 - DEBUG - Latency for contact-other-plane: 0.04s
+2024-08-07 10:14:04,510 - DEBUG - Throughput for contact-other-plane: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,523 - DEBUG - Latency for contingency: 0.04s
+2024-08-07 10:14:04,523 - DEBUG - Throughput for contingency: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,524 - DEBUG - Latency for contagion: 0.04s
+2024-08-07 10:14:04,524 - DEBUG - Throughput for contagion: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:04,529 - DEBUG - Latency for control-weather: 0.04s
+2024-08-07 10:14:04,529 - DEBUG - Throughput for control-weather: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,529 - DEBUG - Latency for counterspell: 0.04s
+2024-08-07 10:14:04,529 - DEBUG - Throughput for counterspell: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,533 - DEBUG - Latency for continual-flame: 0.04s
+2024-08-07 10:14:04,533 - DEBUG - Throughput for continual-flame: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,534 - DEBUG - Latency for control-water: 0.04s
+2024-08-07 10:14:04,534 - DEBUG - Throughput for control-water: 0.00 MB, 0.09 MB/s
+2024-08-07 10:14:04,538 - DEBUG - Latency for create-undead: 0.03s
+2024-08-07 10:14:04,538 - DEBUG - Throughput for create-undead: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:04,546 - DEBUG - Latency for create-or-destroy-water: 0.04s
+2024-08-07 10:14:04,546 - DEBUG - Throughput for create-or-destroy-water: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,552 - DEBUG - Latency for create-food-and-water: 0.05s
+2024-08-07 10:14:04,552 - DEBUG - Throughput for create-food-and-water: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,552 - DEBUG - Latency for creation: 0.04s
+2024-08-07 10:14:04,552 - DEBUG - Throughput for creation: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,556 - DEBUG - Latency for dancing-lights: 0.03s
+2024-08-07 10:14:04,556 - DEBUG - Throughput for dancing-lights: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,556 - DEBUG - Latency for cure-wounds: 0.03s
+2024-08-07 10:14:04,556 - DEBUG - Throughput for cure-wounds: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,571 - DEBUG - Latency for darkness: 0.04s
+2024-08-07 10:14:04,571 - DEBUG - Throughput for darkness: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,572 - DEBUG - Latency for darkvision: 0.04s
+2024-08-07 10:14:04,572 - DEBUG - Throughput for darkvision: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,572 - DEBUG - Latency for death-ward: 0.04s
+2024-08-07 10:14:04,572 - DEBUG - Throughput for death-ward: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,572 - DEBUG - Latency for daylight: 0.04s
+2024-08-07 10:14:04,572 - DEBUG - Throughput for daylight: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,572 - DEBUG - Latency for delayed-blast-fireball: 0.03s
+2024-08-07 10:14:04,572 - DEBUG - Throughput for delayed-blast-fireball: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:04,573 - DEBUG - Latency for demiplane: 0.03s
+2024-08-07 10:14:04,573 - DEBUG - Throughput for demiplane: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,584 - DEBUG - Latency for detect-magic: 0.03s
+2024-08-07 10:14:04,584 - DEBUG - Throughput for detect-magic: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,591 - DEBUG - Latency for detect-thoughts: 0.03s
+2024-08-07 10:14:04,591 - DEBUG - Throughput for detect-thoughts: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:04,592 - DEBUG - Latency for detect-poison-and-disease: 0.03s
+2024-08-07 10:14:04,592 - DEBUG - Throughput for detect-poison-and-disease: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,592 - DEBUG - Latency for detect-evil-and-good: 0.04s
+2024-08-07 10:14:04,592 - DEBUG - Throughput for detect-evil-and-good: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,600 - DEBUG - Latency for dimension-door: 0.03s
+2024-08-07 10:14:04,600 - DEBUG - Throughput for dimension-door: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:04,608 - DEBUG - Latency for divination: 0.03s
+2024-08-07 10:14:04,608 - DEBUG - Throughput for divination: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,609 - DEBUG - Latency for dispel-magic: 0.04s
+2024-08-07 10:14:04,609 - DEBUG - Throughput for dispel-magic: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,609 - DEBUG - Latency for disguise-self: 0.04s
+2024-08-07 10:14:04,609 - DEBUG - Throughput for disguise-self: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,614 - DEBUG - Latency for dispel-evil-and-good: 0.04s
+2024-08-07 10:14:04,614 - DEBUG - Throughput for dispel-evil-and-good: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,614 - DEBUG - Latency for disintegrate: 0.04s
+2024-08-07 10:14:04,615 - DEBUG - Throughput for disintegrate: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,617 - DEBUG - Latency for divine-favor: 0.03s
+2024-08-07 10:14:04,617 - DEBUG - Throughput for divine-favor: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:04,623 - DEBUG - Latency for dominate-monster: 0.03s
+2024-08-07 10:14:04,623 - DEBUG - Throughput for dominate-monster: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:04,629 - DEBUG - Latency for divine-word: 0.04s
+2024-08-07 10:14:04,629 - DEBUG - Throughput for divine-word: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:04,630 - DEBUG - Latency for dominate-beast: 0.04s
+2024-08-07 10:14:04,630 - DEBUG - Throughput for dominate-beast: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,630 - DEBUG - Latency for dominate-person: 0.03s
+2024-08-07 10:14:04,630 - DEBUG - Throughput for dominate-person: 0.00 MB, 0.08 MB/s
+2024-08-07 10:14:04,642 - DEBUG - Latency for druidcraft: 0.03s
+2024-08-07 10:14:04,642 - DEBUG - Throughput for druidcraft: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,643 - DEBUG - Latency for dream: 0.03s
+2024-08-07 10:14:04,643 - DEBUG - Throughput for dream: 0.00 MB, 0.08 MB/s
+2024-08-07 10:14:04,643 - DEBUG - Latency for earthquake: 0.03s
+2024-08-07 10:14:04,643 - DEBUG - Throughput for earthquake: 0.00 MB, 0.08 MB/s
+2024-08-07 10:14:04,646 - DEBUG - Latency for enhance-ability: 0.03s
+2024-08-07 10:14:04,646 - DEBUG - Throughput for enhance-ability: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,659 - DEBUG - Latency for eldritch-blast: 0.04s
+2024-08-07 10:14:04,659 - DEBUG - Throughput for eldritch-blast: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,660 - DEBUG - Latency for enlarge-reduce: 0.04s
+2024-08-07 10:14:04,660 - DEBUG - Throughput for enlarge-reduce: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:04,660 - DEBUG - Latency for entangle: 0.04s
+2024-08-07 10:14:04,660 - DEBUG - Throughput for entangle: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:04,660 - DEBUG - Latency for enthrall: 0.03s
+2024-08-07 10:14:04,660 - DEBUG - Throughput for enthrall: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,230 - DEBUG - Latency for false-life: 0.57s
+2024-08-07 10:14:05,231 - DEBUG - Throughput for false-life: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,231 - DEBUG - Latency for feeblemind: 0.57s
+2024-08-07 10:14:05,231 - DEBUG - Throughput for feeblemind: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,233 - DEBUG - Latency for fabricate: 0.59s
+2024-08-07 10:14:05,233 - DEBUG - Throughput for fabricate: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,234 - DEBUG - Latency for etherealness: 0.60s
+2024-08-07 10:14:05,234 - DEBUG - Throughput for etherealness: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,234 - DEBUG - Latency for fear: 0.57s
+2024-08-07 10:14:05,234 - DEBUG - Throughput for fear: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,234 - DEBUG - Latency for faithful-hound: 0.59s
+2024-08-07 10:14:05,234 - DEBUG - Throughput for faithful-hound: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,235 - DEBUG - Latency for eyebite: 0.59s
+2024-08-07 10:14:05,235 - DEBUG - Throughput for eyebite: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,235 - DEBUG - Latency for faerie-fire: 0.59s
+2024-08-07 10:14:05,235 - DEBUG - Throughput for faerie-fire: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,235 - DEBUG - Latency for expeditious-retreat: 0.60s
+2024-08-07 10:14:05,235 - DEBUG - Throughput for expeditious-retreat: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,235 - DEBUG - Latency for feather-fall: 0.57s
+2024-08-07 10:14:05,236 - DEBUG - Throughput for feather-fall: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:05,263 - DEBUG - Latency for find-familiar: 0.03s
+2024-08-07 10:14:05,263 - DEBUG - Throughput for find-familiar: 0.00 MB, 0.09 MB/s
+2024-08-07 10:14:05,266 - DEBUG - Latency for find-steed: 0.03s
+2024-08-07 10:14:05,266 - DEBUG - Throughput for find-steed: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:05,273 - DEBUG - Latency for find-the-path: 0.04s
+2024-08-07 10:14:05,273 - DEBUG - Throughput for find-the-path: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,274 - DEBUG - Latency for find-traps: 0.04s
+2024-08-07 10:14:05,274 - DEBUG - Throughput for find-traps: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,277 - DEBUG - Latency for finger-of-death: 0.04s
+2024-08-07 10:14:05,277 - DEBUG - Throughput for finger-of-death: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,277 - DEBUG - Latency for fire-storm: 0.04s
+2024-08-07 10:14:05,277 - DEBUG - Throughput for fire-storm: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,277 - DEBUG - Latency for fire-shield: 0.04s
+2024-08-07 10:14:05,277 - DEBUG - Throughput for fire-shield: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,284 - DEBUG - Latency for fire-bolt: 0.05s
+2024-08-07 10:14:05,284 - DEBUG - Throughput for fire-bolt: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,284 - DEBUG - Latency for flame-blade: 0.05s
+2024-08-07 10:14:05,284 - DEBUG - Throughput for flame-blade: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,284 - DEBUG - Latency for fireball: 0.05s
+2024-08-07 10:14:05,284 - DEBUG - Throughput for fireball: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,293 - DEBUG - Latency for flame-strike: 0.03s
+2024-08-07 10:14:05,293 - DEBUG - Throughput for flame-strike: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,299 - DEBUG - Latency for flaming-sphere: 0.03s
+2024-08-07 10:14:05,299 - DEBUG - Throughput for flaming-sphere: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,312 - DEBUG - Latency for flesh-to-stone: 0.04s
+2024-08-07 10:14:05,312 - DEBUG - Throughput for flesh-to-stone: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,312 - DEBUG - Latency for floating-disk: 0.04s
+2024-08-07 10:14:05,312 - DEBUG - Throughput for floating-disk: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,312 - DEBUG - Latency for fog-cloud: 0.03s
+2024-08-07 10:14:05,312 - DEBUG - Throughput for fog-cloud: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,315 - DEBUG - Latency for fly: 0.04s
+2024-08-07 10:14:05,315 - DEBUG - Throughput for fly: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,316 - DEBUG - Latency for forbiddance: 0.04s
+2024-08-07 10:14:05,316 - DEBUG - Throughput for forbiddance: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,316 - DEBUG - Latency for freedom-of-movement: 0.03s
+2024-08-07 10:14:05,316 - DEBUG - Throughput for freedom-of-movement: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,316 - DEBUG - Latency for foresight: 0.03s
+2024-08-07 10:14:05,316 - DEBUG - Throughput for foresight: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,319 - DEBUG - Latency for forcecage: 0.03s
+2024-08-07 10:14:05,319 - DEBUG - Throughput for forcecage: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,327 - DEBUG - Latency for freezing-sphere: 0.03s
+2024-08-07 10:14:05,327 - DEBUG - Throughput for freezing-sphere: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:05,332 - DEBUG - Latency for gaseous-form: 0.03s
+2024-08-07 10:14:05,332 - DEBUG - Throughput for gaseous-form: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,344 - DEBUG - Latency for gentle-repose: 0.03s
+2024-08-07 10:14:05,344 - DEBUG - Throughput for gentle-repose: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,344 - DEBUG - Latency for gate: 0.03s
+2024-08-07 10:14:05,344 - DEBUG - Throughput for gate: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,346 - DEBUG - Latency for geas: 0.03s
+2024-08-07 10:14:05,346 - DEBUG - Throughput for geas: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,359 - DEBUG - Latency for glibness: 0.04s
+2024-08-07 10:14:05,359 - DEBUG - Throughput for glibness: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,359 - DEBUG - Latency for globe-of-invulnerability: 0.04s
+2024-08-07 10:14:05,359 - DEBUG - Throughput for globe-of-invulnerability: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,359 - DEBUG - Latency for giant-insect: 0.04s
+2024-08-07 10:14:05,359 - DEBUG - Throughput for giant-insect: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,365 - DEBUG - Latency for glyph-of-warding: 0.05s
+2024-08-07 10:14:05,365 - DEBUG - Throughput for glyph-of-warding: 0.00 MB, 0.08 MB/s
+2024-08-07 10:14:05,365 - DEBUG - Latency for grease: 0.04s
+2024-08-07 10:14:05,365 - DEBUG - Throughput for grease: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,367 - DEBUG - Latency for goodberry: 0.05s
+2024-08-07 10:14:05,367 - DEBUG - Throughput for goodberry: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,373 - DEBUG - Latency for greater-invisibility: 0.04s
+2024-08-07 10:14:05,373 - DEBUG - Throughput for greater-invisibility: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,376 - DEBUG - Latency for guards-and-wards: 0.03s
+2024-08-07 10:14:05,376 - DEBUG - Throughput for guards-and-wards: 0.00 MB, 0.10 MB/s
+2024-08-07 10:14:05,376 - DEBUG - Latency for greater-restoration: 0.03s
+2024-08-07 10:14:05,376 - DEBUG - Throughput for greater-restoration: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,379 - DEBUG - Latency for guardian-of-faith: 0.03s
+2024-08-07 10:14:05,379 - DEBUG - Throughput for guardian-of-faith: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,406 - DEBUG - Latency for guidance: 0.05s
+2024-08-07 10:14:05,406 - DEBUG - Throughput for guidance: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,407 - DEBUG - Latency for hallow: 0.04s
+2024-08-07 10:14:05,407 - DEBUG - Throughput for hallow: 0.00 MB, 0.08 MB/s
+2024-08-07 10:14:05,407 - DEBUG - Latency for guiding-bolt: 0.05s
+2024-08-07 10:14:05,407 - DEBUG - Throughput for guiding-bolt: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,407 - DEBUG - Latency for gust-of-wind: 0.05s
+2024-08-07 10:14:05,408 - DEBUG - Throughput for gust-of-wind: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,408 - DEBUG - Latency for hallucinatory-terrain: 0.04s
+2024-08-07 10:14:05,408 - DEBUG - Throughput for hallucinatory-terrain: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,408 - DEBUG - Latency for harm: 0.04s
+2024-08-07 10:14:05,408 - DEBUG - Throughput for harm: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,414 - DEBUG - Latency for haste: 0.04s
+2024-08-07 10:14:05,414 - DEBUG - Throughput for haste: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,414 - DEBUG - Latency for heal: 0.04s
+2024-08-07 10:14:05,414 - DEBUG - Throughput for heal: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,416 - DEBUG - Latency for heat-metal: 0.04s
+2024-08-07 10:14:05,417 - DEBUG - Throughput for heat-metal: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,417 - DEBUG - Latency for healing-word: 0.04s
+2024-08-07 10:14:05,417 - DEBUG - Throughput for healing-word: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,438 - DEBUG - Latency for heroism: 0.03s
+2024-08-07 10:14:05,438 - DEBUG - Throughput for heroism: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,439 - DEBUG - Latency for heroes-feast: 0.03s
+2024-08-07 10:14:05,439 - DEBUG - Throughput for heroes-feast: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,439 - DEBUG - Latency for hellish-rebuke: 0.03s
+2024-08-07 10:14:05,439 - DEBUG - Throughput for hellish-rebuke: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,445 - DEBUG - Latency for hold-monster: 0.04s
+2024-08-07 10:14:05,445 - DEBUG - Throughput for hold-monster: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,446 - DEBUG - Latency for hold-person: 0.04s
+2024-08-07 10:14:05,446 - DEBUG - Throughput for hold-person: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,446 - DEBUG - Latency for hideous-laughter: 0.04s
+2024-08-07 10:14:05,446 - DEBUG - Throughput for hideous-laughter: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,446 - DEBUG - Latency for holy-aura: 0.03s
+2024-08-07 10:14:05,446 - DEBUG - Throughput for holy-aura: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,453 - DEBUG - Latency for hypnotic-pattern: 0.04s
+2024-08-07 10:14:05,453 - DEBUG - Throughput for hypnotic-pattern: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,453 - DEBUG - Latency for ice-storm: 0.04s
+2024-08-07 10:14:05,454 - DEBUG - Throughput for ice-storm: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,455 - DEBUG - Latency for hunters-mark: 0.04s
+2024-08-07 10:14:05,455 - DEBUG - Throughput for hunters-mark: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,476 - DEBUG - Latency for identify: 0.04s
+2024-08-07 10:14:05,477 - DEBUG - Throughput for identify: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,477 - DEBUG - Latency for imprisonment: 0.04s
+2024-08-07 10:14:05,478 - DEBUG - Throughput for imprisonment: 0.00 MB, 0.10 MB/s
+2024-08-07 10:14:05,481 - DEBUG - Latency for insect-plague: 0.03s
+2024-08-07 10:14:05,481 - DEBUG - Throughput for insect-plague: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,482 - DEBUG - Latency for incendiary-cloud: 0.04s
+2024-08-07 10:14:05,482 - DEBUG - Throughput for incendiary-cloud: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,482 - DEBUG - Latency for illusory-script: 0.04s
+2024-08-07 10:14:05,482 - DEBUG - Throughput for illusory-script: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,485 - DEBUG - Latency for instant-summons: 0.04s
+2024-08-07 10:14:05,485 - DEBUG - Throughput for instant-summons: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,486 - DEBUG - Latency for invisibility: 0.03s
+2024-08-07 10:14:05,486 - DEBUG - Throughput for invisibility: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,486 - DEBUG - Latency for inflict-wounds: 0.04s
+2024-08-07 10:14:05,486 - DEBUG - Throughput for inflict-wounds: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,486 - DEBUG - Latency for irresistible-dance: 0.03s
+2024-08-07 10:14:05,487 - DEBUG - Throughput for irresistible-dance: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,489 - DEBUG - Latency for jump: 0.03s
+2024-08-07 10:14:05,489 - DEBUG - Throughput for jump: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,508 - DEBUG - Latency for knock: 0.03s
+2024-08-07 10:14:05,508 - DEBUG - Throughput for knock: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,516 - DEBUG - Latency for legend-lore: 0.04s
+2024-08-07 10:14:05,516 - DEBUG - Throughput for legend-lore: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,517 - DEBUG - Latency for light: 0.03s
+2024-08-07 10:14:05,517 - DEBUG - Throughput for light: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,518 - DEBUG - Latency for levitate: 0.03s
+2024-08-07 10:14:05,518 - DEBUG - Throughput for levitate: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,518 - DEBUG - Latency for lesser-restoration: 0.04s
+2024-08-07 10:14:05,519 - DEBUG - Throughput for lesser-restoration: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,519 - DEBUG - Latency for lightning-bolt: 0.03s
+2024-08-07 10:14:05,519 - DEBUG - Throughput for lightning-bolt: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,522 - DEBUG - Latency for locate-creature: 0.03s
+2024-08-07 10:14:05,522 - DEBUG - Throughput for locate-creature: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,522 - DEBUG - Latency for locate-object: 0.03s
+2024-08-07 10:14:05,522 - DEBUG - Throughput for locate-object: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,523 - DEBUG - Latency for longstrider: 0.03s
+2024-08-07 10:14:05,524 - DEBUG - Throughput for longstrider: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,524 - DEBUG - Latency for locate-animals-or-plants: 0.04s
+2024-08-07 10:14:05,524 - DEBUG - Throughput for locate-animals-or-plants: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,538 - DEBUG - Latency for mage-armor: 0.03s
+2024-08-07 10:14:05,538 - DEBUG - Throughput for mage-armor: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,550 - DEBUG - Latency for magic-jar: 0.03s
+2024-08-07 10:14:05,550 - DEBUG - Throughput for magic-jar: 0.00 MB, 0.10 MB/s
+2024-08-07 10:14:05,553 - DEBUG - Latency for mage-hand: 0.03s
+2024-08-07 10:14:05,553 - DEBUG - Throughput for mage-hand: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,554 - DEBUG - Latency for magic-missile: 0.03s
+2024-08-07 10:14:05,554 - DEBUG - Throughput for magic-missile: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,554 - DEBUG - Latency for magic-circle: 0.03s
+2024-08-07 10:14:05,555 - DEBUG - Throughput for magic-circle: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:05,558 - DEBUG - Latency for magic-mouth: 0.04s
+2024-08-07 10:14:05,559 - DEBUG - Throughput for magic-mouth: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,559 - DEBUG - Latency for magic-weapon: 0.04s
+2024-08-07 10:14:05,559 - DEBUG - Throughput for magic-weapon: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,559 - DEBUG - Latency for magnificent-mansion: 0.04s
+2024-08-07 10:14:05,559 - DEBUG - Throughput for magnificent-mansion: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:05,564 - DEBUG - Latency for mass-cure-wounds: 0.04s
+2024-08-07 10:14:05,565 - DEBUG - Throughput for mass-cure-wounds: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,572 - DEBUG - Latency for major-image: 0.05s
+2024-08-07 10:14:05,572 - DEBUG - Throughput for major-image: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,572 - DEBUG - Latency for mass-heal: 0.03s
+2024-08-07 10:14:05,572 - DEBUG - Throughput for mass-heal: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,583 - DEBUG - Latency for mass-healing-word: 0.03s
+2024-08-07 10:14:05,583 - DEBUG - Throughput for mass-healing-word: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,589 - DEBUG - Latency for maze: 0.03s
+2024-08-07 10:14:05,589 - DEBUG - Throughput for maze: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,589 - DEBUG - Latency for meld-into-stone: 0.03s
+2024-08-07 10:14:05,589 - DEBUG - Throughput for meld-into-stone: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:05,590 - DEBUG - Latency for mass-suggestion: 0.03s
+2024-08-07 10:14:05,590 - DEBUG - Throughput for mass-suggestion: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:05,591 - DEBUG - Latency for message: 0.03s
+2024-08-07 10:14:05,592 - DEBUG - Throughput for message: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,597 - DEBUG - Latency for meteor-swarm: 0.04s
+2024-08-07 10:14:05,597 - DEBUG - Throughput for meteor-swarm: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:05,598 - DEBUG - Latency for mending: 0.04s
+2024-08-07 10:14:05,598 - DEBUG - Throughput for mending: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:05,598 - DEBUG - Latency for mind-blank: 0.03s
+2024-08-07 10:14:05,598 - DEBUG - Throughput for mind-blank: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:05,605 - DEBUG - Latency for minor-illusion: 0.03s
+2024-08-07 10:14:05,605 - DEBUG - Throughput for minor-illusion: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,176 - INFO - Avg latency: 0.03s, Avg throughput: 0.04MB/s
+2024-08-07 10:14:06,228 - DEBUG - Latency for nondetection: 0.63s
+2024-08-07 10:14:06,229 - DEBUG - Throughput for nondetection: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,230 - DEBUG - Latency for misty-step: 0.64s
+2024-08-07 10:14:06,230 - DEBUG - Throughput for misty-step: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,231 - DEBUG - Latency for mirror-image: 0.65s
+2024-08-07 10:14:06,231 - DEBUG - Throughput for mirror-image: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,231 - DEBUG - Latency for mirage-arcane: 0.66s
+2024-08-07 10:14:06,231 - DEBUG - Throughput for mirage-arcane: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,232 - DEBUG - Latency for pass-without-trace: 0.63s
+2024-08-07 10:14:06,232 - DEBUG - Throughput for pass-without-trace: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,232 - DEBUG - Latency for move-earth: 0.63s
+2024-08-07 10:14:06,232 - DEBUG - Throughput for move-earth: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,233 - DEBUG - Latency for modify-memory: 0.64s
+2024-08-07 10:14:06,233 - DEBUG - Throughput for modify-memory: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,233 - DEBUG - Latency for passwall: 0.63s
+2024-08-07 10:14:06,233 - DEBUG - Throughput for passwall: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,234 - DEBUG - Latency for mislead: 0.64s
+2024-08-07 10:14:06,234 - DEBUG - Throughput for mislead: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,234 - DEBUG - Latency for moonbeam: 0.64s
+2024-08-07 10:14:06,234 - DEBUG - Throughput for moonbeam: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:06,267 - DEBUG - Latency for phantom-steed: 0.03s
+2024-08-07 10:14:06,267 - DEBUG - Throughput for phantom-steed: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,269 - DEBUG - Latency for planar-binding: 0.03s
+2024-08-07 10:14:06,269 - DEBUG - Throughput for planar-binding: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:06,269 - DEBUG - Latency for phantasmal-killer: 0.03s
+2024-08-07 10:14:06,269 - DEBUG - Throughput for phantasmal-killer: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,270 - DEBUG - Latency for polymorph: 0.03s
+2024-08-07 10:14:06,270 - DEBUG - Throughput for polymorph: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:06,270 - DEBUG - Latency for planar-ally: 0.03s
+2024-08-07 10:14:06,270 - DEBUG - Throughput for planar-ally: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:06,271 - DEBUG - Latency for plant-growth: 0.03s
+2024-08-07 10:14:06,271 - DEBUG - Throughput for plant-growth: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,283 - DEBUG - Latency for power-word-kill: 0.05s
+2024-08-07 10:14:06,283 - DEBUG - Throughput for power-word-kill: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,284 - DEBUG - Latency for plane-shift: 0.05s
+2024-08-07 10:14:06,285 - DEBUG - Throughput for plane-shift: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,285 - DEBUG - Latency for power-word-stun: 0.05s
+2024-08-07 10:14:06,285 - DEBUG - Throughput for power-word-stun: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,286 - DEBUG - Latency for poison-spray: 0.05s
+2024-08-07 10:14:06,286 - DEBUG - Throughput for poison-spray: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,304 - DEBUG - Latency for private-sanctum: 0.03s
+2024-08-07 10:14:06,304 - DEBUG - Throughput for private-sanctum: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,305 - DEBUG - Latency for prismatic-spray: 0.03s
+2024-08-07 10:14:06,306 - DEBUG - Throughput for prismatic-spray: 0.00 MB, 0.08 MB/s
+2024-08-07 10:14:06,306 - DEBUG - Latency for prestidigitation: 0.03s
+2024-08-07 10:14:06,306 - DEBUG - Throughput for prestidigitation: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,306 - DEBUG - Latency for produce-flame: 0.03s
+2024-08-07 10:14:06,306 - DEBUG - Throughput for produce-flame: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,310 - DEBUG - Latency for prayer-of-healing: 0.04s
+2024-08-07 10:14:06,310 - DEBUG - Throughput for prayer-of-healing: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,316 - DEBUG - Latency for prismatic-wall: 0.04s
+2024-08-07 10:14:06,317 - DEBUG - Throughput for prismatic-wall: 0.00 MB, 0.09 MB/s
+2024-08-07 10:14:06,324 - DEBUG - Latency for protection-from-evil-and-good: 0.04s
+2024-08-07 10:14:06,324 - DEBUG - Throughput for protection-from-evil-and-good: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,326 - DEBUG - Latency for project-image: 0.04s
+2024-08-07 10:14:06,326 - DEBUG - Throughput for project-image: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,337 - DEBUG - Latency for protection-from-energy: 0.05s
+2024-08-07 10:14:06,337 - DEBUG - Throughput for protection-from-energy: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,338 - DEBUG - Latency for programmed-illusion: 0.05s
+2024-08-07 10:14:06,338 - DEBUG - Throughput for programmed-illusion: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,340 - DEBUG - Latency for ray-of-enfeeblement: 0.03s
+2024-08-07 10:14:06,340 - DEBUG - Throughput for ray-of-enfeeblement: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,340 - DEBUG - Latency for protection-from-poison: 0.03s
+2024-08-07 10:14:06,340 - DEBUG - Throughput for protection-from-poison: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,348 - DEBUG - Latency for raise-dead: 0.04s
+2024-08-07 10:14:06,348 - DEBUG - Throughput for raise-dead: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,350 - DEBUG - Latency for ray-of-frost: 0.04s
+2024-08-07 10:14:06,350 - DEBUG - Throughput for ray-of-frost: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,350 - DEBUG - Latency for regenerate: 0.03s
+2024-08-07 10:14:06,351 - DEBUG - Throughput for regenerate: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,351 - DEBUG - Latency for purify-food-and-drink: 0.04s
+2024-08-07 10:14:06,351 - DEBUG - Throughput for purify-food-and-drink: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,355 - DEBUG - Latency for reincarnate: 0.03s
+2024-08-07 10:14:06,355 - DEBUG - Throughput for reincarnate: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,360 - DEBUG - Latency for remove-curse: 0.03s
+2024-08-07 10:14:06,360 - DEBUG - Throughput for remove-curse: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,371 - DEBUG - Latency for reverse-gravity: 0.03s
+2024-08-07 10:14:06,372 - DEBUG - Throughput for reverse-gravity: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,372 - DEBUG - Latency for resurrection: 0.03s
+2024-08-07 10:14:06,372 - DEBUG - Throughput for resurrection: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,376 - DEBUG - Latency for resistance: 0.04s
+2024-08-07 10:14:06,376 - DEBUG - Throughput for resistance: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,377 - DEBUG - Latency for resilient-sphere: 0.04s
+2024-08-07 10:14:06,377 - DEBUG - Throughput for resilient-sphere: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,377 - DEBUG - Latency for revivify: 0.03s
+2024-08-07 10:14:06,377 - DEBUG - Throughput for revivify: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,387 - DEBUG - Latency for sacred-flame: 0.03s
+2024-08-07 10:14:06,387 - DEBUG - Throughput for sacred-flame: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,388 - DEBUG - Latency for sanctuary: 0.04s
+2024-08-07 10:14:06,388 - DEBUG - Throughput for sanctuary: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,388 - DEBUG - Latency for rope-trick: 0.04s
+2024-08-07 10:14:06,388 - DEBUG - Throughput for rope-trick: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,389 - DEBUG - Latency for scorching-ray: 0.03s
+2024-08-07 10:14:06,389 - DEBUG - Throughput for scorching-ray: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,395 - DEBUG - Latency for scrying: 0.03s
+2024-08-07 10:14:06,395 - DEBUG - Throughput for scrying: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:06,402 - DEBUG - Latency for see-invisibility: 0.03s
+2024-08-07 10:14:06,402 - DEBUG - Throughput for see-invisibility: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,403 - DEBUG - Latency for secret-chest: 0.03s
+2024-08-07 10:14:06,403 - DEBUG - Throughput for secret-chest: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,405 - DEBUG - Latency for seeming: 0.03s
+2024-08-07 10:14:06,405 - DEBUG - Throughput for seeming: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:06,410 - DEBUG - Latency for sequester: 0.03s
+2024-08-07 10:14:06,410 - DEBUG - Throughput for sequester: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,410 - DEBUG - Latency for sending: 0.03s
+2024-08-07 10:14:06,411 - DEBUG - Throughput for sending: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,419 - DEBUG - Latency for shapechange: 0.03s
+2024-08-07 10:14:06,419 - DEBUG - Throughput for shapechange: 0.00 MB, 0.10 MB/s
+2024-08-07 10:14:06,424 - DEBUG - Latency for shield-of-faith: 0.03s
+2024-08-07 10:14:06,424 - DEBUG - Throughput for shield-of-faith: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,425 - DEBUG - Latency for shield: 0.03s
+2024-08-07 10:14:06,425 - DEBUG - Throughput for shield: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,425 - DEBUG - Latency for shatter: 0.04s
+2024-08-07 10:14:06,426 - DEBUG - Throughput for shatter: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,427 - DEBUG - Latency for shillelagh: 0.03s
+2024-08-07 10:14:06,428 - DEBUG - Throughput for shillelagh: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,436 - DEBUG - Latency for silence: 0.03s
+2024-08-07 10:14:06,436 - DEBUG - Throughput for silence: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,437 - DEBUG - Latency for silent-image: 0.03s
+2024-08-07 10:14:06,437 - DEBUG - Throughput for silent-image: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,438 - DEBUG - Latency for shocking-grasp: 0.03s
+2024-08-07 10:14:06,438 - DEBUG - Throughput for shocking-grasp: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,445 - DEBUG - Latency for sleep: 0.03s
+2024-08-07 10:14:06,445 - DEBUG - Throughput for sleep: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,446 - DEBUG - Latency for simulacrum: 0.03s
+2024-08-07 10:14:06,446 - DEBUG - Throughput for simulacrum: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,459 - DEBUG - Latency for sleet-storm: 0.04s
+2024-08-07 10:14:06,459 - DEBUG - Throughput for sleet-storm: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,460 - DEBUG - Latency for speak-with-dead: 0.03s
+2024-08-07 10:14:06,460 - DEBUG - Throughput for speak-with-dead: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,460 - DEBUG - Latency for slow: 0.03s
+2024-08-07 10:14:06,460 - DEBUG - Throughput for slow: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,461 - DEBUG - Latency for spare-the-dying: 0.03s
+2024-08-07 10:14:06,461 - DEBUG - Throughput for spare-the-dying: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,461 - DEBUG - Latency for speak-with-animals: 0.03s
+2024-08-07 10:14:06,462 - DEBUG - Throughput for speak-with-animals: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,468 - DEBUG - Latency for speak-with-plants: 0.03s
+2024-08-07 10:14:06,468 - DEBUG - Throughput for speak-with-plants: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:06,479 - DEBUG - Latency for spike-growth: 0.04s
+2024-08-07 10:14:06,479 - DEBUG - Throughput for spike-growth: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,479 - DEBUG - Latency for spider-climb: 0.04s
+2024-08-07 10:14:06,480 - DEBUG - Throughput for spider-climb: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,480 - DEBUG - Latency for spirit-guardians: 0.03s
+2024-08-07 10:14:06,480 - DEBUG - Throughput for spirit-guardians: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,486 - DEBUG - Latency for spiritual-weapon: 0.04s
+2024-08-07 10:14:06,486 - DEBUG - Throughput for spiritual-weapon: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,498 - DEBUG - Latency for stone-shape: 0.04s
+2024-08-07 10:14:06,498 - DEBUG - Throughput for stone-shape: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,499 - DEBUG - Latency for stinking-cloud: 0.04s
+2024-08-07 10:14:06,499 - DEBUG - Throughput for stinking-cloud: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,500 - DEBUG - Latency for stoneskin: 0.04s
+2024-08-07 10:14:06,500 - DEBUG - Throughput for stoneskin: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,511 - DEBUG - Latency for storm-of-vengeance: 0.05s
+2024-08-07 10:14:06,511 - DEBUG - Throughput for storm-of-vengeance: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,512 - DEBUG - Latency for sunbeam: 0.04s
+2024-08-07 10:14:06,512 - DEBUG - Throughput for sunbeam: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,514 - DEBUG - Latency for suggestion: 0.05s
+2024-08-07 10:14:06,515 - DEBUG - Throughput for suggestion: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,515 - DEBUG - Latency for telekinesis: 0.03s
+2024-08-07 10:14:06,515 - DEBUG - Throughput for telekinesis: 0.00 MB, 0.07 MB/s
+2024-08-07 10:14:06,515 - DEBUG - Latency for symbol: 0.03s
+2024-08-07 10:14:06,515 - DEBUG - Throughput for symbol: 0.00 MB, 0.12 MB/s
+2024-08-07 10:14:06,515 - DEBUG - Latency for sunburst: 0.03s
+2024-08-07 10:14:06,516 - DEBUG - Throughput for sunburst: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,526 - DEBUG - Latency for telepathic-bond: 0.04s
+2024-08-07 10:14:06,526 - DEBUG - Throughput for telepathic-bond: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,535 - DEBUG - Latency for teleportation-circle: 0.03s
+2024-08-07 10:14:06,535 - DEBUG - Throughput for teleportation-circle: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:06,536 - DEBUG - Latency for teleport: 0.04s
+2024-08-07 10:14:06,536 - DEBUG - Throughput for teleport: 0.00 MB, 0.11 MB/s
+2024-08-07 10:14:06,538 - DEBUG - Latency for thaumaturgy: 0.04s
+2024-08-07 10:14:06,538 - DEBUG - Throughput for thaumaturgy: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,539 - DEBUG - Latency for thunderwave: 0.03s
+2024-08-07 10:14:06,539 - DEBUG - Throughput for thunderwave: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:06,547 - DEBUG - Latency for time-stop: 0.03s
+2024-08-07 10:14:06,547 - DEBUG - Throughput for time-stop: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,548 - DEBUG - Latency for tongues: 0.03s
+2024-08-07 10:14:06,548 - DEBUG - Throughput for tongues: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,555 - DEBUG - Latency for transport-via-plants: 0.04s
+2024-08-07 10:14:06,555 - DEBUG - Throughput for transport-via-plants: 0.00 MB, 0.02 MB/s
+2024-08-07 10:14:06,556 - DEBUG - Latency for tree-stride: 0.04s
+2024-08-07 10:14:06,556 - DEBUG - Throughput for tree-stride: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,557 - DEBUG - Latency for tiny-hut: 0.04s
+2024-08-07 10:14:06,557 - DEBUG - Throughput for tiny-hut: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,560 - DEBUG - Latency for true-polymorph: 0.03s
+2024-08-07 10:14:06,560 - DEBUG - Throughput for true-polymorph: 0.00 MB, 0.09 MB/s
+2024-08-07 10:14:06,569 - DEBUG - Latency for true-seeing: 0.03s
+2024-08-07 10:14:06,569 - DEBUG - Throughput for true-seeing: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,570 - DEBUG - Latency for true-resurrection: 0.03s
+2024-08-07 10:14:06,570 - DEBUG - Throughput for true-resurrection: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,572 - DEBUG - Latency for true-strike: 0.03s
+2024-08-07 10:14:06,572 - DEBUG - Throughput for true-strike: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,573 - DEBUG - Latency for unseen-servant: 0.03s
+2024-08-07 10:14:06,573 - DEBUG - Throughput for unseen-servant: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,578 - DEBUG - Latency for vampiric-touch: 0.03s
+2024-08-07 10:14:06,578 - DEBUG - Throughput for vampiric-touch: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,584 - DEBUG - Latency for vicious-mockery: 0.03s
+2024-08-07 10:14:06,584 - DEBUG - Throughput for vicious-mockery: 0.00 MB, 0.03 MB/s
+2024-08-07 10:14:06,593 - DEBUG - Latency for wall-of-ice: 0.03s
+2024-08-07 10:14:06,594 - DEBUG - Throughput for wall-of-ice: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:06,594 - DEBUG - Latency for wall-of-force: 0.04s
+2024-08-07 10:14:06,594 - DEBUG - Throughput for wall-of-force: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:06,595 - DEBUG - Latency for wall-of-fire: 0.04s
+2024-08-07 10:14:06,595 - DEBUG - Throughput for wall-of-fire: 0.00 MB, 0.05 MB/s
+2024-08-07 10:14:06,601 - DEBUG - Latency for wall-of-stone: 0.04s
+2024-08-07 10:14:06,601 - DEBUG - Throughput for wall-of-stone: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:06,601 - DEBUG - Latency for wall-of-thorns: 0.03s
+2024-08-07 10:14:06,602 - DEBUG - Throughput for wall-of-thorns: 0.00 MB, 0.06 MB/s
+2024-08-07 10:14:06,603 - DEBUG - Latency for warding-bond: 0.03s
+2024-08-07 10:14:06,603 - DEBUG - Throughput for warding-bond: 0.00 MB, 0.04 MB/s
+2024-08-07 10:14:07,289 - DEBUG - Latency for water-walk: 0.71s
+2024-08-07 10:14:07,289 - DEBUG - Throughput for water-walk: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,290 - DEBUG - Latency for web: 0.71s
+2024-08-07 10:14:07,290 - DEBUG - Throughput for web: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,291 - DEBUG - Latency for wish: 0.69s
+2024-08-07 10:14:07,291 - DEBUG - Throughput for wish: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,291 - DEBUG - Latency for wind-wall: 0.70s
+2024-08-07 10:14:07,291 - DEBUG - Throughput for wind-wall: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,291 - DEBUG - Latency for water-breathing: 0.72s
+2024-08-07 10:14:07,291 - DEBUG - Throughput for water-breathing: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,292 - DEBUG - Latency for word-of-recall: 0.69s
+2024-08-07 10:14:07,292 - DEBUG - Throughput for word-of-recall: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,292 - DEBUG - Latency for zone-of-truth: 0.69s
+2024-08-07 10:14:07,292 - DEBUG - Throughput for zone-of-truth: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,292 - DEBUG - Latency for wind-walk: 0.70s
+2024-08-07 10:14:07,292 - DEBUG - Throughput for wind-walk: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,293 - DEBUG - Latency for weird: 0.71s
+2024-08-07 10:14:07,293 - DEBUG - Throughput for weird: 0.00 MB, 0.00 MB/s
+2024-08-07 10:14:07,303 - INFO - Batch 1 written to file.
+2024-08-07 10:14:07,304 - INFO - Spell descriptions have been saved to spell_details_compact.txt

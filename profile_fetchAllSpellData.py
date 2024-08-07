@@ -2,7 +2,6 @@ import subprocess
 import cProfile
 import pstats
 import io
-import os
 
 def run_main_script():
     """Runs the main spell-fetching script and profiles it."""
@@ -15,30 +14,25 @@ def run_main_script():
     subprocess.run(["python3", script_path], check=True)
     profiler.disable()
 
-    # Create a Stats object and sort it
+    # Save the profiling results to a binary .prof file
+    prof_filename = "profiling_results.prof"
+    profiler.dump_stats(prof_filename)
+
+    # Optionally print the stats to the console
     s = io.StringIO()
     ps = pstats.Stats(profiler, stream=s).sort_stats('cumulative')
-
-    # Print the stats
     ps.print_stats()
+    print(s.getvalue())
 
-    # Optionally save the profiling results to a file
-    with open("profiling_results.txt", "w") as f:
-        f.write(s.getvalue())
-
-    print("Profiling complete. Results saved to profiling_results.txt")
+    print(f"Profiling complete. Results saved to {prof_filename}")
 
 def visualize_profiling():
     """Visualizes the profiling results using SnakeViz."""
-    # Check if snakeviz is installed
     try:
-        import snakeviz
-    except ImportError:
-        print("SnakeViz is not installed. Install it by running 'pip3 install snakeviz'")
-        return
-
-    # Run snakeviz on the profiling results
-    os.system("snakeviz profiling_results.txt")
+        # Use the .prof file with SnakeViz
+        subprocess.run(["python3", "-m", "snakeviz", "profiling_results.prof"], check=True)
+    except subprocess.CalledProcessError:
+        print("Failed to run SnakeViz. Ensure SnakeViz is installed via pip3.")
 
 if __name__ == "__main__":
     run_main_script()
