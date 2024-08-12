@@ -2,7 +2,6 @@ import aiohttp
 import asyncio
 import psutil
 import logging
-import json
 import time
 from aiohttp import ClientTimeout
 from typing import List, Dict
@@ -26,56 +25,69 @@ log_formatter = ColoredFormatter(
 
 console_handler = logging.StreamHandler()
 console_handler.setFormatter(log_formatter)
-console_handler.setLevel(logging.INFO)  # Only show INFO and higher levels in console
+console_handler.setLevel(logging.INFO)
 
-file_handler = logging.FileHandler('spell_fetcher.log', mode='w')
+file_handler = logging.FileHandler('dnd_fetcher.log', mode='w')
 file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
-file_handler.setLevel(logging.DEBUG)  # Log all levels to file
+file_handler.setLevel(logging.DEBUG)
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Set overall logger level
+logger.setLevel(logging.DEBUG)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
-# Constants
-RATE_LIMIT_PER_SECOND = 10000  # API limit of 10,000 requests per second
-REQUEST_DELAY = 1.0 / RATE_LIMIT_PER_SECOND  # Delay between requests
+API_BASE_URL = 'https://www.dnd5eapi.co'
+SECTIONS = {
+    "ability-scores": "/api/ability-scores",
+    "alignments": "/api/alignments",
+    "backgrounds": "/api/backgrounds",
+    "classes": "/api/classes",
+    "conditions": "/api/conditions",
+    "damage-types": "/api/damage-types",
+    "equipment": "/api/equipment",
+    "equipment-categories": "/api/equipment-categories",
+    "feats": "/api/feats",
+    "features": "/api/features",
+    "languages": "/api/languages",
+    "magic-items": "/api/magic-items",
+    "magic-schools": "/api/magic-schools",
+    "monsters": "/api/monsters",
+    "proficiencies": "/api/proficiencies",
+    "races": "/api/races",
+    "rule-sections": "/api/rule-sections",
+    "rules": "/api/rules",
+    "skills": "/api/skills",
+    "spells": "/api/spells",
+    "subclasses": "/api/subclasses",
+    "subraces": "/api/subraces",
+    "traits": "/api/traits",
+    "weapon-properties": "/api/weapon-properties"
+}
+RATE_LIMIT_PER_SECOND = 10000
+REQUEST_DELAY = 1.0 / RATE_LIMIT_PER_SECOND
 ESTIMATED_DESCRIPTION_SIZE_BYTES = 2000
 
-# Real-time feedback parameters
-DEFAULT_WORKERS = 10  # Start with a reasonable default
-MAX_WORKERS = 200  # Maximum workers cap
-MIN_WORKERS = 1  # Minimum workers
-TARGET_LATENCY = 1.0  # Target latency per request (seconds)
-LATENCY_TOLERANCE = 0.5  # Allowable deviation from target latency
-THROUGHPUT_TOLERANCE = 0.5  # MB/s threshold for increasing or decreasing workers
+DEFAULT_WORKERS = 10
+MAX_WORKERS = 200
+MIN_WORKERS = 1
+TARGET_LATENCY = 1.0
+LATENCY_TOLERANCE = 0.5
+THROUGHPUT_TOLERANCE = 0.5
 
-# Monitoring queues
 latency_samples = deque(maxlen=10)
 throughput_samples = deque(maxlen=10)
 
-def log_large_data(data, filename='large_log_data.json'):
-    """Save large data to a separate file for better readability."""
+async def get_all_section_items(session: aiohttp.ClientSession, section: str) -> List[Dict]:
+    url = f"{API_BASE_URL}{section}"
     try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-        logger.info(f"Large data saved to {filename}")
-    except Exception as e:
-        logger.error(f"Error saving large data to {filename}: {e}")
-
-async def get_all_spells(session: aiohttp.ClientSession) -> List[Dict]:
-    """Fetch all spells from the API asynchronously."""
-    base_url = 'https://www.dnd5eapi.co/api/spells'
-    try:
-        logger.info("Fetching all spells from the API.")
-        async with session.get(base_url, timeout=ClientTimeout(total=10)) as response:
+        logger.info(f"Fetching all items from section: {section}")
+        async with session.get(url, timeout=ClientTimeout(total=10)) as response:
             response.raise_for_status()
-            spell_data = await response.json()
-            logger.debug(f"Retrieved spell list with {spell_data.get('count', 'unknown')} spells.")
-            log_large_data(spell_data, 'spell_list.json')
-            return spell_data.get('results', [])
-    except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError) as e:
-        logger.error(f"Error fetching spell list: {e}", exc_info=True)
+            section_data = await response.json()
+            logger.debug(f"Retrieved {section} list with {section_data.get('count', 'unknown')} items.")
+            return section_data.get('results', [])
+    except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+        logger.error(f"Error fetching {section} list: {e}", exc_info=True)
         return []
 
 @retry(
@@ -83,54 +95,35 @@ async def get_all_spells(session: aiohttp.ClientSession) -> List[Dict]:
     wait=wait_exponential(multiplier=1, min=1, max=5),
     retry=retry_if_exception_type((aiohttp.ClientError, asyncio.TimeoutError))
 )
-async def get_spell_details(session: aiohttp.ClientSession, spell_url: str) -> Dict:
-    """Fetch spell details from the API asynchronously with retry."""
+async def get_item_details(session: aiohttp.ClientSession, item_url: str) -> Dict:
     try:
-        start_time = time.time()
-        async with session.get(spell_url, timeout=ClientTimeout(total=10)) as response:
+        async with session.get(item_url, timeout=ClientTimeout(total=10)) as response:
             response.raise_for_status()
-            spell_data = await response.json()
-            end_time = time.time()
-            
-            # Calculate and log latency
-            latency = end_time - start_time
-            latency_samples.append(latency)
-            logger.debug(f"Latency for {spell_url.split('/')[-1]}: {latency:.2f}s")
+            item_data = await response.json()
 
-            # Calculate and log throughput
-            data_size_mb = len(json.dumps(spell_data)) / (1024 * 1024)
-            throughput_samples.append(data_size_mb / latency if latency > 0 else 0)
-            logger.debug(f"Throughput for {spell_url.split('/')[-1]}: {data_size_mb:.2f} MB, {data_size_mb / latency if latency > 0 else 0:.2f} MB/s")
-            
-            return spell_data
-    except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError) as e:
-        logger.error(f"Error fetching details for {spell_url}: {e}", exc_info=True)
+            # Remove unnecessary keys to reduce tokens
+            for key in ['index', 'url', 'source']:
+                item_data.pop(key, None)
+
+            return item_data
+    except (aiohttp.ClientError, asyncio.TimeoutError) as e:
+        logger.error(f"Error fetching details for {item_url}: {e}", exc_info=True)
         return {'error': str(e)}
 
-async def fetch_spell_data(session: aiohttp.ClientSession, spell: Dict, semaphore: asyncio.Semaphore) -> Dict:
-    """Fetch spell data asynchronously and return a dictionary with spell information."""
-    spell_name = spell['name']
-    spell_url = f"https://www.dnd5eapi.co{spell['url']}"
-    logger.debug(f"Fetching data for spell: {spell_name}")
-    
-    # Acquire semaphore and implement delay for rate limiting
-    async with semaphore:
-        # Implement rate limiting delay
-        await asyncio.sleep(REQUEST_DELAY)
+async def fetch_section_data(session: aiohttp.ClientSession, item: Dict, section: str, semaphore: asyncio.Semaphore) -> Dict:
+    item_url = f"{API_BASE_URL}{item['url']}"
+    logger.debug(f"Fetching data for {section} item: {item['name']}")
 
-        # Fetch the spell details with retry
-        spell_details = await get_spell_details(session, spell_url)
-    
-    return spell_details
+    async with semaphore:
+        await asyncio.sleep(REQUEST_DELAY)
+        item_details = await get_item_details(session, item_url)
+
+    return item_details
 
 async def adjust_workers_dynamically(semaphore: asyncio.Semaphore):
-    """Adjust the number of workers dynamically based on real-time metrics."""
     current_workers = DEFAULT_WORKERS
     while True:
-        # Sleep for a period to collect enough data for analysis
         await asyncio.sleep(2)
-
-        # Calculate average latency and throughput
         if latency_samples:
             avg_latency = sum(latency_samples) / len(latency_samples)
         else:
@@ -143,7 +136,6 @@ async def adjust_workers_dynamically(semaphore: asyncio.Semaphore):
 
         logger.info(f"Avg latency: {avg_latency:.2f}s, Avg throughput: {avg_throughput:.2f}MB/s")
 
-        # Decision to increase or decrease workers
         if avg_latency > TARGET_LATENCY + LATENCY_TOLERANCE:
             if current_workers > MIN_WORKERS:
                 current_workers -= 1
@@ -153,62 +145,55 @@ async def adjust_workers_dynamically(semaphore: asyncio.Semaphore):
                 current_workers += 1
                 logger.info(f"Increasing workers to {current_workers} to maximize throughput.")
 
-        # Clear samples for next evaluation period
         latency_samples.clear()
         throughput_samples.clear()
 
-        # Update semaphore with new worker count
-        semaphore._value = current_workers  # Update the semaphore's internal worker count
+        semaphore._value = current_workers
 
 def calculate_batch_size() -> int:
-    """Calculate the optimal batch size based on available memory and estimated description size."""
     available_memory = psutil.virtual_memory().available
-    estimated_memory_per_description = ESTIMATED_DESCRIPTION_SIZE_BYTES * 1.5  # Add some buffer
-    batch_size = int(available_memory / estimated_memory_per_description * 0.1)  # Use 10% of available memory
+    estimated_memory_per_description = ESTIMATED_DESCRIPTION_SIZE_BYTES * 1.5
+    batch_size = int(available_memory / estimated_memory_per_description * 0.1)
     logger.info(f"Calculated optimal batch size: {batch_size}")
     return max(1, batch_size)
 
-async def save_spells_to_text(filename: str):
-    """Fetch all spell data asynchronously and save it to a text file in JSON format."""
+async def save_sections_to_files():
     async with aiohttp.ClientSession() as session:
-        spells = await get_all_spells(session)
-        batch_size = calculate_batch_size()
+        semaphore = asyncio.Semaphore(DEFAULT_WORKERS)
 
-        tasks = []
-        semaphore = asyncio.Semaphore(DEFAULT_WORKERS)  # Control concurrency with semaphore
-
-        # Start the dynamic adjustment task
         dynamic_adjustment_task = asyncio.create_task(adjust_workers_dynamically(semaphore))
 
-        for spell in spells:
-            tasks.append(fetch_spell_data(session, spell, semaphore))
+        for section, path in SECTIONS.items():
+            items = await get_all_section_items(session, path)
+            batch_size = calculate_batch_size()
 
-        logger.info(f"Starting to fetch spell data with dynamic worker adjustment...")
+            tasks = []
+            for item in items:
+                tasks.append(fetch_section_data(session, item, section, semaphore))
 
-        results = []
-        # Process tasks in batches
-        for i in range(0, len(tasks), batch_size):
-            batch_tasks = tasks[i:i + batch_size]
-            logger.info(f"Processing batch {i // batch_size + 1}/{(len(tasks) + batch_size - 1) // batch_size}")
-            batch_results = await asyncio.gather(*batch_tasks)
-            results.extend(batch_results)
+            logger.info(f"Starting to fetch {section} data with dynamic worker adjustment...")
 
-            # Write batch results to text file as compact JSON
-            with open(filename, 'w', encoding='utf-8') as file:
-                for result in results:
-                    json_string = json.dumps(result, separators=(',', ':'), ensure_ascii=False)
-                    file.write(json_string + '\n')  # New line for each JSON object
-            logger.info(f"Batch {i // batch_size + 1} written to file.")
+            results = []
+            for i in range(0, len(tasks), batch_size):
+                batch_tasks = tasks[i:i + batch_size]
+                logger.info(f"Processing batch {i // batch_size + 1}/{(len(tasks) + batch_size - 1) // batch_size} for section: {section}")
+                batch_results = await asyncio.gather(*batch_tasks)
+                results.extend(batch_results)
 
-        # Cancel the dynamic adjustment task when done
+                filename = f"{section}_details_compact.txt"
+                with open(filename, 'w', encoding='utf-8') as file:
+                    for result in results:
+                        result_string = ' '.join([f"{k} {v}" for k, v in result.items()])
+                        file.write(result_string + '\n')
+                logger.info(f"Batch {i // batch_size + 1} for section {section} written to file {filename}.")
+
         dynamic_adjustment_task.cancel()
 
-    logger.info(f"Spell descriptions have been saved to {filename}")
+    logger.info("All sections have been processed and saved to separate files.")
 
 def main():
-    """Main function to run the async spell fetcher."""
     try:
-        asyncio.run(save_spells_to_text('spell_details_compact.txt'))
+        asyncio.run(save_sections_to_files())
     except Exception as e:
         logger.critical(f"An unexpected error occurred: {e}", exc_info=True)
 

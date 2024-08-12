@@ -1,0 +1,2144 @@
+2024-08-11 21:12:16,577 - INFO - Fetching all items from section: /api/ability-scores
+2024-08-11 21:12:16,681 - DEBUG - Retrieved /api/ability-scores list with 6 items.
+2024-08-11 21:12:16,681 - INFO - Calculated optimal batch size: 43645
+2024-08-11 21:12:16,681 - INFO - Starting to fetch ability-scores data with dynamic worker adjustment...
+2024-08-11 21:12:16,681 - INFO - Processing batch 1/1 for section: ability-scores
+2024-08-11 21:12:16,681 - DEBUG - Fetching data for ability-scores item: CHA
+2024-08-11 21:12:16,681 - DEBUG - Fetching data for ability-scores item: CON
+2024-08-11 21:12:16,681 - DEBUG - Fetching data for ability-scores item: DEX
+2024-08-11 21:12:16,681 - DEBUG - Fetching data for ability-scores item: INT
+2024-08-11 21:12:16,682 - DEBUG - Fetching data for ability-scores item: STR
+2024-08-11 21:12:16,682 - DEBUG - Fetching data for ability-scores item: WIS
+2024-08-11 21:12:16,755 - INFO - Batch 1 for section ability-scores written to file ability-scores_details_compact.txt.
+2024-08-11 21:12:16,755 - INFO - Fetching all items from section: /api/alignments
+2024-08-11 21:12:16,780 - DEBUG - Retrieved /api/alignments list with 9 items.
+2024-08-11 21:12:16,780 - INFO - Calculated optimal batch size: 43562
+2024-08-11 21:12:16,780 - INFO - Starting to fetch alignments data with dynamic worker adjustment...
+2024-08-11 21:12:16,780 - INFO - Processing batch 1/1 for section: alignments
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Chaotic Evil
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Chaotic Good
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Chaotic Neutral
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Lawful Evil
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Lawful Good
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Lawful Neutral
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Neutral
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Neutral Evil
+2024-08-11 21:12:16,781 - DEBUG - Fetching data for alignments item: Neutral Good
+2024-08-11 21:12:16,850 - INFO - Batch 1 for section alignments written to file alignments_details_compact.txt.
+2024-08-11 21:12:16,850 - INFO - Fetching all items from section: /api/backgrounds
+2024-08-11 21:12:16,873 - DEBUG - Retrieved /api/backgrounds list with 1 items.
+2024-08-11 21:12:16,873 - INFO - Calculated optimal batch size: 43523
+2024-08-11 21:12:16,873 - INFO - Starting to fetch backgrounds data with dynamic worker adjustment...
+2024-08-11 21:12:16,873 - INFO - Processing batch 1/1 for section: backgrounds
+2024-08-11 21:12:16,874 - DEBUG - Fetching data for backgrounds item: Acolyte
+2024-08-11 21:12:16,895 - INFO - Batch 1 for section backgrounds written to file backgrounds_details_compact.txt.
+2024-08-11 21:12:16,895 - INFO - Fetching all items from section: /api/classes
+2024-08-11 21:12:16,918 - DEBUG - Retrieved /api/classes list with 12 items.
+2024-08-11 21:12:16,918 - INFO - Calculated optimal batch size: 43547
+2024-08-11 21:12:16,918 - INFO - Starting to fetch classes data with dynamic worker adjustment...
+2024-08-11 21:12:16,918 - INFO - Processing batch 1/1 for section: classes
+2024-08-11 21:12:16,918 - DEBUG - Fetching data for classes item: Barbarian
+2024-08-11 21:12:16,918 - DEBUG - Fetching data for classes item: Bard
+2024-08-11 21:12:16,918 - DEBUG - Fetching data for classes item: Cleric
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Druid
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Fighter
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Monk
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Paladin
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Ranger
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Rogue
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Sorcerer
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Warlock
+2024-08-11 21:12:16,919 - DEBUG - Fetching data for classes item: Wizard
+2024-08-11 21:12:16,988 - INFO - Batch 1 for section classes written to file classes_details_compact.txt.
+2024-08-11 21:12:16,989 - INFO - Fetching all items from section: /api/conditions
+2024-08-11 21:12:17,011 - DEBUG - Retrieved /api/conditions list with 15 items.
+2024-08-11 21:12:17,011 - INFO - Calculated optimal batch size: 43439
+2024-08-11 21:12:17,012 - INFO - Starting to fetch conditions data with dynamic worker adjustment...
+2024-08-11 21:12:17,012 - INFO - Processing batch 1/1 for section: conditions
+2024-08-11 21:12:17,012 - DEBUG - Fetching data for conditions item: Blinded
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Charmed
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Deafened
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Exhaustion
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Frightened
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Grappled
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Incapacitated
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Invisible
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Paralyzed
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Petrified
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Poisoned
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Prone
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Restrained
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Stunned
+2024-08-11 21:12:17,013 - DEBUG - Fetching data for conditions item: Unconscious
+2024-08-11 21:12:17,063 - INFO - Batch 1 for section conditions written to file conditions_details_compact.txt.
+2024-08-11 21:12:17,063 - INFO - Fetching all items from section: /api/damage-types
+2024-08-11 21:12:17,087 - DEBUG - Retrieved /api/damage-types list with 13 items.
+2024-08-11 21:12:17,087 - INFO - Calculated optimal batch size: 43231
+2024-08-11 21:12:17,087 - INFO - Starting to fetch damage-types data with dynamic worker adjustment...
+2024-08-11 21:12:17,087 - INFO - Processing batch 1/1 for section: damage-types
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Acid
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Bludgeoning
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Cold
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Fire
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Force
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Lightning
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Necrotic
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Piercing
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Poison
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Psychic
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Radiant
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Slashing
+2024-08-11 21:12:17,088 - DEBUG - Fetching data for damage-types item: Thunder
+2024-08-11 21:12:17,125 - INFO - Batch 1 for section damage-types written to file damage-types_details_compact.txt.
+2024-08-11 21:12:17,125 - INFO - Fetching all items from section: /api/equipment
+2024-08-11 21:12:17,162 - DEBUG - Retrieved /api/equipment list with 237 items.
+2024-08-11 21:12:17,163 - INFO - Calculated optimal batch size: 43285
+2024-08-11 21:12:17,163 - INFO - Starting to fetch equipment data with dynamic worker adjustment...
+2024-08-11 21:12:17,163 - INFO - Processing batch 1/1 for section: equipment
+2024-08-11 21:12:17,165 - DEBUG - Fetching data for equipment item: Abacus
+2024-08-11 21:12:17,165 - DEBUG - Fetching data for equipment item: Acid (vial)
+2024-08-11 21:12:17,165 - DEBUG - Fetching data for equipment item: Alchemist's fire (flask)
+2024-08-11 21:12:17,165 - DEBUG - Fetching data for equipment item: Alchemist's Supplies
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Alms box
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Amulet
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Animal Feed (1 day)
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Antitoxin (vial)
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Arrow
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Backpack
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Bagpipes
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Ball bearings (bag of 1,000)
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Breastplate
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Chain mail
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Chain shirt
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Half plate
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Hide
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Leather
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Padded
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Plate
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Ring mail
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Scale mail
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Splint
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barding: Studded Leather
+2024-08-11 21:12:17,166 - DEBUG - Fetching data for equipment item: Barrel
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Basket
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Battleaxe
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Bedroll
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Bell
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Bit and bridle
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Blanket
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Block and tackle
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Block of incense
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Blowgun
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Blowgun needle
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Book
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Bottle, glass
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Breastplate
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Brewer's Supplies
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Bucket
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Burglar's Pack
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Calligrapher's Supplies
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Caltrops
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Camel
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Candle
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Carpenter's Tools
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Carriage
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Cart
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Cartographer's Tools
+2024-08-11 21:12:17,167 - DEBUG - Fetching data for equipment item: Case, crossbow bolt
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Case, map or scroll
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Censer
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Chain (10 feet)
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Chain Mail
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Chain Shirt
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Chalk (1 piece)
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Chariot
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Chest
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Climber's Kit
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Clothes, common
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Clothes, costume
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Clothes, fine
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Clothes, traveler's
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Club
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Cobbler's Tools
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Component pouch
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Cook's utensils
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Crossbow bolt
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Crossbow, hand
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Crossbow, heavy
+2024-08-11 21:12:17,168 - DEBUG - Fetching data for equipment item: Crossbow, light
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Crowbar
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Crystal
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Dagger
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Dart
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Dice Set
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Diplomat's Pack
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Disguise Kit
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Donkey
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Drum
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Dulcimer
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Dungeoneer's Pack
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Elephant
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Emblem
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Entertainer's Pack
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Explorer's Pack
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Fishing tackle
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Flail
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Flask or tankard
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Flute
+2024-08-11 21:12:17,169 - DEBUG - Fetching data for equipment item: Forgery Kit
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Galley
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Glaive
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Glassblower's Tools
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Grappling hook
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Greataxe
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Greatclub
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Greatsword
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Halberd
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Half Plate Armor
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Hammer
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Hammer, sledge
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Handaxe
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Healer's Kit
+2024-08-11 21:12:17,170 - DEBUG - Fetching data for equipment item: Herbalism Kit
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Hide Armor
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Holy water (flask)
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Horn
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Horse, draft
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Horse, riding
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Hourglass
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Hunting trap
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Ink (1 ounce bottle)
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Ink pen
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Javelin
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Jeweler's Tools
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Jug or pitcher
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Keelboat
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Ladder (10-foot)
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Lamp
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Lance
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Lantern, bullseye
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Lantern, hooded
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Leather Armor
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Leatherworker's Tools
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Light hammer
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Little bag of sand
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Lock
+2024-08-11 21:12:17,171 - DEBUG - Fetching data for equipment item: Longbow
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Longship
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Longsword
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Lute
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Lyre
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Mace
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Magnifying glass
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Manacles
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Mason's Tools
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Mastiff
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Maul
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Mess Kit
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Mirror, steel
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Morningstar
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Mule
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Navigator's Tools
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Net
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Oil (flask)
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Orb
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Padded Armor
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Painter's Supplies
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Pan flute
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Paper (one sheet)
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Parchment (one sheet)
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Perfume (vial)
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Pick, miner's
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Pike
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Piton
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Plate Armor
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Playing Card Set
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Poison, basic (vial)
+2024-08-11 21:12:17,172 - DEBUG - Fetching data for equipment item: Poisoner's Kit
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Pole (10-foot)
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Pony
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Pot, iron
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Potter's Tools
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Pouch
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Priest's Pack
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Quarterstaff
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Quiver
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Ram, portable
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Rapier
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Rations (1 day)
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Reliquary
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Ring Mail
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Robes
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Rod
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Rope, hempen (50 feet)
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Rope, silk (50 feet)
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Rowboat
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Sack
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Saddle, Exotic
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Saddle, Military
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Saddle, Pack
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Saddle, Riding
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Saddlebags
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Sailing ship
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Scale Mail
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Scale, merchant's
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Scholar's Pack
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Scimitar
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Sealing wax
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Shawm
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Shield
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Shortbow
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Shortsword
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Shovel
+2024-08-11 21:12:17,173 - DEBUG - Fetching data for equipment item: Sickle
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Signal whistle
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Signet ring
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Sled
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Sling
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Sling bullet
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Small knife
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Smith's Tools
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Soap
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Spear
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Spellbook
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Spike, iron
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Splint Armor
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Sprig of mistletoe
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Spyglass
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Stabling (1 day)
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Staff
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: String (10 feet)
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Studded Leather Armor
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Tent, two-person
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Thieves' Tools
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Tinderbox
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Tinker's Tools
+2024-08-11 21:12:17,174 - DEBUG - Fetching data for equipment item: Torch
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Totem
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Trident
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Vestments
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Vial
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Viol
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Wagon
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Wand
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: War pick
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Warhammer
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Warhorse
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Warship
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Waterskin
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Weaver's Tools
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Whetstone
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Whip
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Woodcarver's Tools
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Wooden staff
+2024-08-11 21:12:17,175 - DEBUG - Fetching data for equipment item: Yew wand
+2024-08-11 21:12:18,582 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:18,887 - INFO - Batch 1 for section equipment written to file equipment_details_compact.txt.
+2024-08-11 21:12:18,887 - INFO - Fetching all items from section: /api/equipment-categories
+2024-08-11 21:12:18,907 - DEBUG - Retrieved /api/equipment-categories list with 39 items.
+2024-08-11 21:12:18,908 - INFO - Calculated optimal batch size: 42353
+2024-08-11 21:12:18,908 - INFO - Starting to fetch equipment-categories data with dynamic worker adjustment...
+2024-08-11 21:12:18,908 - INFO - Processing batch 1/1 for section: equipment-categories
+2024-08-11 21:12:18,908 - DEBUG - Fetching data for equipment-categories item: Adventuring Gear
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Ammunition
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Arcane Foci
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Armor
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Artisan's Tools
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Druidic Foci
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Equipment Packs
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Gaming Sets
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Heavy Armor
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Holy Symbols
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Kits
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Land Vehicles
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Light Armor
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Martial Melee Weapons
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Martial Ranged Weapons
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Martial Weapons
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Medium Armor
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Melee Weapons
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Mounts and Other Animals
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Mounts and Vehicles
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Musical Instruments
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Other Tools
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Potion
+2024-08-11 21:12:18,909 - DEBUG - Fetching data for equipment-categories item: Ranged Weapons
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Ring
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Rod
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Scroll
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Shields
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Simple Melee Weapons
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Simple Ranged Weapons
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Simple Weapons
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Staff
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Standard Gear
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Tack, Harness, and Drawn Vehicles
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Tools
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Wand
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Waterborne Vehicles
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Weapon
+2024-08-11 21:12:18,910 - DEBUG - Fetching data for equipment-categories item: Wondrous Items
+2024-08-11 21:12:19,754 - INFO - Batch 1 for section equipment-categories written to file equipment-categories_details_compact.txt.
+2024-08-11 21:12:19,755 - INFO - Fetching all items from section: /api/feats
+2024-08-11 21:12:19,772 - DEBUG - Retrieved /api/feats list with 1 items.
+2024-08-11 21:12:19,772 - INFO - Calculated optimal batch size: 42720
+2024-08-11 21:12:19,773 - INFO - Starting to fetch feats data with dynamic worker adjustment...
+2024-08-11 21:12:19,773 - INFO - Processing batch 1/1 for section: feats
+2024-08-11 21:12:19,773 - DEBUG - Fetching data for feats item: Grappler
+2024-08-11 21:12:19,794 - INFO - Batch 1 for section feats written to file feats_details_compact.txt.
+2024-08-11 21:12:19,795 - INFO - Fetching all items from section: /api/features
+2024-08-11 21:12:19,850 - DEBUG - Retrieved /api/features list with 370 items.
+2024-08-11 21:12:19,850 - INFO - Calculated optimal batch size: 42687
+2024-08-11 21:12:19,852 - INFO - Starting to fetch features data with dynamic worker adjustment...
+2024-08-11 21:12:19,852 - INFO - Processing batch 1/1 for section: features
+2024-08-11 21:12:19,854 - DEBUG - Fetching data for features item: Action Surge (1 use)
+2024-08-11 21:12:19,854 - DEBUG - Fetching data for features item: Action Surge (2 uses)
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Additional Fighting Style
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Additional Magical Secrets
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Arcane Recovery
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Arcane Tradition
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Archdruid
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Aura improvements
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Aura of Courage
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Aura of Devotion
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Aura of Protection
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,855 - DEBUG - Fetching data for features item: Extra Attack
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Unarmored Defense
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Bard College
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Expertise
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Expertise
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Bardic Inspiration (d10)
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Bardic Inspiration (d12)
+2024-08-11 21:12:19,856 - DEBUG - Fetching data for features item: Bardic Inspiration (d6)
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Bardic Inspiration (d8)
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Beast Spells
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Blessed Healer
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Blindsense
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Bonus Cantrip
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Bonus Proficiencies
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Bonus Proficiency
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Brutal Critical (1 die)
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Brutal Critical (2 dice)
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Brutal Critical (3 dice)
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Channel Divinity
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Channel Divinity (1/rest)
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Channel Divinity (2/rest)
+2024-08-11 21:12:19,857 - DEBUG - Fetching data for features item: Channel Divinity (3/rest)
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Channel Divinity: Preserve Life
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Channel Divinity: Sacred Weapon
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Channel Divinity: Turn the Unholy
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Channel Divinity: Turn Undead
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land: Arctic
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land: Coast
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land: Desert
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land: Forest
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land: Grassland
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land: Mountain
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle of the Land: Swamp
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle Spells
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle Spells
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle Spells
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Circle Spells
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Cleansing Touch
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,858 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Countercharm
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Cunning Action
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Cutting Words
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Danger Sense
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Dark One's Blessing
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Dark One's Own Luck
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Defensive Tactics
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Defensive Tactics: Escape the Horde
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Defensive Tactics: Multiattack Defense
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Defensive Tactics: Steel Will
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Deflect Missiles
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Destroy Undead (CR 1/2 or below)
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Destroy Undead (CR 1 or below)
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Destroy Undead (CR 2 or below)
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Destroy Undead (CR 3 or below)
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Destroy Undead (CR 4 or below)
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Diamond Soul
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Disciple of Life
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Divine Domain
+2024-08-11 21:12:19,859 - DEBUG - Fetching data for features item: Divine Health
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Divine Intervention
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Divine Intervention Improvement
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Divine Sense
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Divine Smite
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Divine Strike
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Domain Spells
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Domain Spells
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Domain Spells
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Domain Spells
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Domain Spells
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Draconic Presence
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Draconic Resilience
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Dragon Ancestor
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Dragon Ancestor: Black - Acid Damage
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Dragon Ancestor: Blue - Lightning Damage
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Dragon Ancestor: Brass - Fire Damage
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Dragon Ancestor: Bronze - Lightning Damage
+2024-08-11 21:12:19,860 - DEBUG - Fetching data for features item: Dragon Ancestor: Copper - Acid Damage
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Dragon Ancestor: Gold - Fire Damage
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Dragon Ancestor: Green - Poison Damage
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Dragon Ancestor: Red - Fire Damage
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Dragon Ancestor: Silver - Cold Damage
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Dragon Ancestor: White - Cold Damage
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Dragon Wings
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Druid Circle
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Land's Stride
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Timeless Body
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Druidic
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Eldritch Invocation: Agonizing Blast
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Eldritch Invocation: Armor of Shadows
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Eldritch Invocation: Ascendant Step
+2024-08-11 21:12:19,861 - DEBUG - Fetching data for features item: Eldritch Invocation: Beast Speech
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Beguiling Influence
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Bewitching Whispers
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Book of Ancient Secrets
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Chains of Carceri
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Devil's Sight
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Dreadful Word
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Eldritch Sight
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Eldritch Spear
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Eyes of the Rune Keeper
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Fiendish Vigor
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Gaze of Two Minds
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Lifedrinker
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Mask of Many Faces
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Master of Myriad Forms
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Minions of Chaos
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Mire the Mind
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Misty Visions
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: One with Shadows
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Otherworldly Leap
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Repelling Blast
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Sculptor of Flesh
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Sign of Ill Omen
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Thief of Five Fates
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Thirsting Blade
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Visions of Distant Realms
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Voice of the Chain Master
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Whispers of the Grave
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocation: Witch Sight
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Invocations
+2024-08-11 21:12:19,862 - DEBUG - Fetching data for features item: Eldritch Master
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Elemental Affinity
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Elusive
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Empowered Evocation
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Empty Body
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Evocation Savant
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Extra Attack
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Extra Attack (2)
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Extra Attack (3)
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fast Hands
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fast Movement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Favored Enemy (1 type)
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Favored Enemy (2 types)
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Favored Enemy (3 enemies)
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Feral Instinct
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Feral Senses
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fiendish Resilience
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fighting Style
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fighting Style: Archery
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fighting Style: Defense
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fighting Style: Dueling
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fighting Style: Great Weapon Fighting
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fighting Style: Protection
+2024-08-11 21:12:19,863 - DEBUG - Fetching data for features item: Fighting Style: Two-Weapon Fighting
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Fighting Style: Defense
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Fighting Style: Dueling
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Fighting Style: Great Weapon Fighting
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Fighting Style: Protection
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Flexible Casting: Converting Spell Slot
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Flexible Casting: Creating Spell Slots
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Flurry of Blows
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Foe Slayer
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Font of Inspiration
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Font of Magic
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Frenzy
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Hide in Plain Sight
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Holy Nimbus
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Hunter's Prey
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Hunter's Prey: Colossus Slayer
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Hunter's Prey: Giant Killer
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Hunter's Prey: Horde Breaker
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Hurl Through Hell
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Improved Critical
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Improved Divine Smite
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Indomitable (1 use)
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Indomitable (2 uses)
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Indomitable (3 uses)
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Indomitable Might
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Intimidating Presence
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Jack of All Trades
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Ki
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Ki Empowered Strikes
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Lay on Hands
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Magical Secrets
+2024-08-11 21:12:19,864 - DEBUG - Fetching data for features item: Magical Secrets
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Magical Secrets
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Martial Archetype
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Martial Arts
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Careful Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Distant Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Empowered Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Extended Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Heightened Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Quickened Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Subtle Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Metamagic: Twinned Spell
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Mindless Rage
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Monastic Tradition
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Evasion
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Extra Attack
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Timeless Body
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Unarmored Defense
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Multiattack
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Multiattack: Volley
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Multiattack: Whirlwind Attack
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Mystic Arcanum (6th level)
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Mystic Arcanum (7th level)
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Mystic Arcanum (8th level)
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Mystic Arcanum (9th level)
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Natural Explorer (1 terrain type)
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Natural Explorer (2 terrain types)
+2024-08-11 21:12:19,865 - DEBUG - Fetching data for features item: Natural Explorer (3 terrain types)
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Natural Recovery
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Nature's Sanctuary
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Nature's Ward
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Oath Spells
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Open Hand Technique
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Otherworldly Patron
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Overchannel
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Pact Boon
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Pact Magic
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Pact of the Blade
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Pact of the Chain
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Pact of the Tome
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Extra Attack
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Fighting Style
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Patient Defense
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Peerless Skill
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Perfect Self
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Persistent Rage
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Potent Cantrip
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Primal Champion
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Primal Path
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Primeval Awareness
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Purity of Body
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Purity of Spirit
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Quivering Palm
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Rage
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,866 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ranger Archetype
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Extra Attack
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Fighting Style
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Fighting Style: Archery
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Fighting Style: Defense
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Fighting Style: Dueling
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Fighting Style: Two-Weapon Fighting
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Land's Stride
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Reckless Attack
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Relentless Rage
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Reliable Talent
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Remarkable Athlete
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Retaliation
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Evasion
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Expertise
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Expertise
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Roguish Archetype
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Sacred Oath
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Sculpt Spells
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Second-Story Work
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Second Wind
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Signature Spell
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Slippery Mind
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Slow Fall
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Sneak Attack
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Song of Rest (d10)
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Song of Rest (d12)
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Song of Rest (d6)
+2024-08-11 21:12:19,867 - DEBUG - Fetching data for features item: Song of Rest (d8)
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Sorcerous Origin
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Sorcerous Restoration
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spell Mastery
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spellcasting: Bard
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spellcasting: Cleric
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spellcasting: Druid
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spellcasting: Paladin
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spellcasting: Ranger
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spellcasting: Sorcerer
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Spellcasting: Wizard
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Step of the Wind
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Stillness of Mind
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Stroke of Luck
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Stunning Strike
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Superior Critical
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Superior Hunter's Defense
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Superior Hunter's Defense: Evasion
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Superior Hunter's Defense: Stand Against the Tide
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Superior Hunter's Defense: Uncanny Dodge
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Superior Inspiration
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Supreme Healing
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Supreme Sneak
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Survivor
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Thief's Reflexes
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Thieves' Cant
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Tongue of the Sun and Moon
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Tranquility
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Unarmored Movement
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Unarmored Movement
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Uncanny Dodge
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Use Magic Device
+2024-08-11 21:12:19,868 - DEBUG - Fetching data for features item: Vanish
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Wholeness of Body
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Wild Shape (CR 1/2 or below, no flying speed)
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Wild Shape (CR 1/4 or below, no flying or swim speed)
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Wild Shape (CR 1 or below)
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:19,869 - DEBUG - Fetching data for features item: Ability Score Improvement
+2024-08-11 21:12:20,583 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:22,585 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:22,796 - INFO - Batch 1 for section features written to file features_details_compact.txt.
+2024-08-11 21:12:22,797 - INFO - Fetching all items from section: /api/languages
+2024-08-11 21:12:22,815 - DEBUG - Retrieved /api/languages list with 16 items.
+2024-08-11 21:12:22,815 - INFO - Calculated optimal batch size: 44288
+2024-08-11 21:12:22,815 - INFO - Starting to fetch languages data with dynamic worker adjustment...
+2024-08-11 21:12:22,815 - INFO - Processing batch 1/1 for section: languages
+2024-08-11 21:12:22,815 - DEBUG - Fetching data for languages item: Abyssal
+2024-08-11 21:12:22,815 - DEBUG - Fetching data for languages item: Celestial
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Common
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Deep Speech
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Draconic
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Dwarvish
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Elvish
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Giant
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Gnomish
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Goblin
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Halfling
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Infernal
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Orc
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Primordial
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Sylvan
+2024-08-11 21:12:22,816 - DEBUG - Fetching data for languages item: Undercommon
+2024-08-11 21:12:22,854 - INFO - Batch 1 for section languages written to file languages_details_compact.txt.
+2024-08-11 21:12:22,854 - INFO - Fetching all items from section: /api/magic-items
+2024-08-11 21:12:22,886 - DEBUG - Retrieved /api/magic-items list with 362 items.
+2024-08-11 21:12:22,887 - INFO - Calculated optimal batch size: 44038
+2024-08-11 21:12:22,888 - INFO - Starting to fetch magic-items data with dynamic worker adjustment...
+2024-08-11 21:12:22,888 - INFO - Processing batch 1/1 for section: magic-items
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Adamantine Armor
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Ammunition, +1, +2, or +3
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Ammunition, +1
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Ammunition, +2
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Ammunition, +3
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Amulet of Health
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Amulet of Proof against Detection and Location
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Amulet of the Planes
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Animated Shield
+2024-08-11 21:12:22,890 - DEBUG - Fetching data for magic-items item: Apparatus of the Crab
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Armor, +1, +2, or +3
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Armor, +1
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Armor, +2
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Armor, +3
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Armor of Invulnerability
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Armor of Resistance
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Armor of Vulnerability
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Arrow-Catching Shield
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Arrow of Slaying
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Bag of Beans
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Bag of Devouring
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Bag of Holding
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Bag of Tricks
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Gray Bag of Tricks
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Rust Bag of Tricks
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Tan Bag of Tricks
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Bead of Force
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Dwarvenkind
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Giant Strength
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Cloud Giant Strength
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Fire Giant Strength
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Frost Giant Strength
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Hill Giant Strength
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Stone Giant Strength
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Belt of Storm Giant Strength
+2024-08-11 21:12:22,891 - DEBUG - Fetching data for magic-items item: Berserker Axe
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Boots of Elvenkind
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Boots of Levitation
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Boots of Speed
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Boots of Striding and Springing
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Boots of the Winterlands
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Bowl of Commanding Water Elementals
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Bracers of Archery
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Bracers of Defense
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Brazier of Commanding Fire Elementals
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Brooch of Shielding
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Broom of Flying
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Candle of Invocation
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cape of the Mountebank
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Carpet of Flying
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Carpet of Flying (3 ft. × 5 ft.)
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Carpet of Flying (4 ft. × 6 ft.)
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Carpet of Flying (5 ft. × 7 ft.)
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Carpet of Flying (6 ft. × 9 ft.)
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Censer of Controlling Air Elementals
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Chime of Opening
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Circlet of Blasting
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cloak of Arachnida
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cloak of Displacement
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cloak of Elvenkind
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cloak of Protection
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cloak of the Bat
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cloak of the Manta Ray
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Crystal Ball
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Crystal Ball of Mind Reading
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Crystal Ball of Telepathy
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Crystal Ball of True Seeing
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cube of Force
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Cubic Gate
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Dagger of Venom
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Dancing Sword
+2024-08-11 21:12:22,892 - DEBUG - Fetching data for magic-items item: Decanter of Endless Water
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Deck of Illusions
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Deck of Many Things
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Defender
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Demon Armor
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dimensional Shackles
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Black Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Blue Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Brass Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Bronze Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Copper Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Gold Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Green Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Red Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Silver Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: White Dragon Scale Mail
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dragon Slayer
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dust of Disappearance
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dust of Dryness
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dust of Sneezing and Choking
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dwarven Plate
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Dwarven Thrower
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Efficient Quiver
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Efreeti Bottle
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Elemental Gem
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Air Elemental Gem
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Earth Elemental Gem
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Fire Elemental Gem
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Water Elemental Gem
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Elven Chain
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Eversmoking Bottle
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Eyes of Charming
+2024-08-11 21:12:22,893 - DEBUG - Fetching data for magic-items item: Eyes of Minute Seeing
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Eyes of the Eagle
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Feather Token
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Anchor Feather Token
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Bird Feather Token
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Fan Feather Token
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Swan Boat Feather Token
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Tree Feather Token
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Whip Feather Token
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Bronze Griffon Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Ebony Fly Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Golden Lions Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Ivory Goats Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Marble Elephant Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Obsidian Steed Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Onyx Dog Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Serpentine Owl Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Silver Raven Figurine of Wondrous Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Flame Tongue
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Folding Boat
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Frost Brand
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Gauntlets of Ogre Power
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Gem of Brightness
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Gem of Seeing
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Giant Slayer
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Glamoured Studded Leather Armor
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Gloves of Missile Snaring
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Gloves of Swimming and Climbing
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Goggles of Night
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Hammer of Thunderbolts
+2024-08-11 21:12:22,894 - DEBUG - Fetching data for magic-items item: Handy Haversack
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Hat of Disguise
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Headband of Intellect
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Helm of Brilliance
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Helm of Comprehending Languages
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Helm of Telepathy
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Helm of Teleportation
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Holy Avenger
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Horn of Blasting
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Horn of Valhalla
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Brass Horn of Valhalla
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Bronze Horn of Valhalla
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Iron Horn of Valhalla
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Silver Horn of Valhalla
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Horseshoes of a Zephyr
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Horseshoes of Speed
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Immovable Rod
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Instant Fortress
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Ioun Stone
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Ioun Stone of Absorption
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Ioun Stone of Agility
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Ioun Stone of Awareness
+2024-08-11 21:12:22,895 - DEBUG - Fetching data for magic-items item: Ioun Stone of Fortitude
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Greater Absorption
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Insight
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Intellect
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Leadership
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Mastery
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Protection
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Regeneration
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Reserve
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Strength
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Ioun Stone of Sustenance
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Iron Bands of Binding
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Iron Flask
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Javelin of Lightning
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Lantern of Revealing
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Luck Blade
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Mace of Disruption
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Mace of Smiting
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Mace of Terror
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Mantle of Spell Resistance
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Bodily Health
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Gainful Exercise
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Golems
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Clay Golems
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Flesh Golems
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Iron Golems
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Stone Golems
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Manual of Quickness of Action
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Marvelous Pigments
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Medallion of Thoughts
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Mirror of Life Trapping
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Mithral Armor
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Necklace of Adaptation
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Necklace of Fireballs
+2024-08-11 21:12:22,896 - DEBUG - Fetching data for magic-items item: Necklace of Prayer Beads
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Nine Lives Stealer
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Oathbow
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Oil of Etherealness
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Oil of Sharpness
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Oil of Slipperiness
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Orb of Dragonkind
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Pearl of Power
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Periapt of Health
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Periapt of Proof against Poison
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Periapt of Wound Closure
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Philter of Love
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Pipes of Haunting
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Pipes of the Sewers
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Plate Armor of Etherealness
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Portable Hole
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Animal Friendship
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Clairvoyance
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Climbing
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Diminution
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Flying
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Gaseous Form
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Giant Strength
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Cloud Giant Strength
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Fire Giant Strength
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Frost Giant Strength
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Hill Giant Strength
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Stone Giant Strength
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Storm Giant Strength
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Growth
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Healing
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Healing
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Greater Healing
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Superior Healing
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Supreme Healing
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Heroism
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Invisibility
+2024-08-11 21:12:22,897 - DEBUG - Fetching data for magic-items item: Potion of Mind Reading
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Poison
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Acid Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Cold Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Fire Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Force Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Lightning Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Necrotic Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Poison Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Psychic Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Radiant Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Thunder Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Speed
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Potion of Water Breathing
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Restorative Ointment
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Animal Influence
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Djinni Summoning
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Elemental Command
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Air Elemental Command
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Earth Elemental Command
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Fire Elemental Command
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Water Elemental Command
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Evasion
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Feather Falling
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Free Action
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Invisibility
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Jumping
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Mind Shielding
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Protection
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Regeneration
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Acid Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Cold Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Fire Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Force Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Lightning Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Necrotic Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Poison Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Psychic Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Radiant Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Thunder Resistance
+2024-08-11 21:12:22,898 - DEBUG - Fetching data for magic-items item: Ring of Shooting Stars
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of Spell Storing
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of Spell Turning
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of Swimming
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of Telekinesis
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of the Ram
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of Three Wishes
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of Warmth
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of Water Walking
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Ring of X-ray Vision
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Robe of Eyes
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Robe of Scintillating Colors
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Robe of Stars
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Robe of the Archmagi
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Robe of Useful Items
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Rod of Absorption
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Rod of Alertness
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Rod of Lordly Might
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Rod of Rulership
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Rod of Security
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Rope of Climbing
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Rope of Entanglement
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Scarab of Protection
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Scimitar of Speed
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Shield of Missile Attraction
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Slippers of Spider Climbing
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Sovereign Glue
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (1st)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (2nd)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (3rd)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (4th)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (5th)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (6th)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (7th)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (8th)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (9th)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spell Scroll (Cantrip)
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Spellguard Shield
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Sphere of Annihilation
+2024-08-11 21:12:22,899 - DEBUG - Fetching data for magic-items item: Staff of Charming
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Fire
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Frost
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Healing
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Power
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Striking
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Swarming Insects
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of the Magi
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of the Python
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of the Woodlands
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Thunder and Lightning
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Staff of Withering
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Stone of Controlling Earth Elementals
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Stone of Good Luck (Luckstone)
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Sun Blade
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Sword of Life Stealing
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Sword of Sharpness
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Sword of Wounding
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Talisman of Pure Good
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Talisman of the Sphere
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Talisman of Ultimate Evil
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Tome of Clear Thought
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Tome of Leadership and Influence
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Tome of Understanding
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Trident of Fish Command
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Universal Solvent
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Vicious Weapon
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Vorpal Sword
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Binding
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Enemy Detection
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Fear
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Fireballs
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Lightning Bolts
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Magic Detection
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Magic Missiles
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Paralysis
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Polymorph
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Secrets
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of the War Mage, +1, +2, or +3
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of the War Mage, +1
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of the War Mage, +2
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of the War Mage, +3
+2024-08-11 21:12:22,900 - DEBUG - Fetching data for magic-items item: Wand of Web
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Wand of Wonder
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Weapon, +1, +2, or +3
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Weapon, +1
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Weapon, +2
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Weapon, +3
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Well of Many Worlds
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Wind Fan
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Winged Boots
+2024-08-11 21:12:22,901 - DEBUG - Fetching data for magic-items item: Wings of Flying
+2024-08-11 21:12:24,587 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:26,589 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:26,712 - INFO - Batch 1 for section magic-items written to file magic-items_details_compact.txt.
+2024-08-11 21:12:26,713 - INFO - Fetching all items from section: /api/magic-schools
+2024-08-11 21:12:26,729 - DEBUG - Retrieved /api/magic-schools list with 8 items.
+2024-08-11 21:12:26,730 - INFO - Calculated optimal batch size: 43178
+2024-08-11 21:12:26,730 - INFO - Starting to fetch magic-schools data with dynamic worker adjustment...
+2024-08-11 21:12:26,730 - INFO - Processing batch 1/1 for section: magic-schools
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Abjuration
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Conjuration
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Divination
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Enchantment
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Evocation
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Illusion
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Necromancy
+2024-08-11 21:12:26,730 - DEBUG - Fetching data for magic-schools item: Transmutation
+2024-08-11 21:12:26,757 - INFO - Batch 1 for section magic-schools written to file magic-schools_details_compact.txt.
+2024-08-11 21:12:26,757 - INFO - Fetching all items from section: /api/monsters
+2024-08-11 21:12:26,797 - DEBUG - Retrieved /api/monsters list with 334 items.
+2024-08-11 21:12:26,797 - INFO - Calculated optimal batch size: 43589
+2024-08-11 21:12:26,798 - INFO - Starting to fetch monsters data with dynamic worker adjustment...
+2024-08-11 21:12:26,798 - INFO - Processing batch 1/1 for section: monsters
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Aboleth
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Acolyte
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Black Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Blue Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Brass Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Bronze Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Copper Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Gold Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Green Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Red Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult Silver Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Adult White Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Air Elemental
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Black Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Blue Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Brass Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Bronze Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Copper Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Gold Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Green Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Red Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient Silver Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ancient White Dragon
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Androsphinx
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Animated Armor
+2024-08-11 21:12:26,800 - DEBUG - Fetching data for monsters item: Ankheg
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Ape
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Archmage
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Assassin
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Awakened Shrub
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Awakened Tree
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Axe Beak
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Azer
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Baboon
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Badger
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Balor
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bandit
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bandit Captain
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Barbed Devil
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Basilisk
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bat
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bearded Devil
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Behir
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Berserker
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Black Bear
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Black Dragon Wyrmling
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Black Pudding
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Blink Dog
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Blood Hawk
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Blue Dragon Wyrmling
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Boar
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bone Devil
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Brass Dragon Wyrmling
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bronze Dragon Wyrmling
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Brown Bear
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bugbear
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Bulette
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Camel
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Cat
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Centaur
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Chain Devil
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Chimera
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Chuul
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Clay Golem
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Cloaker
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Cloud Giant
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Cockatrice
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Commoner
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Constrictor Snake
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Copper Dragon Wyrmling
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Couatl
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Crab
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Crocodile
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Cult Fanatic
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Cultist
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Darkmantle
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Death Dog
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Deep Gnome (Svirfneblin)
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Deer
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Deva
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Dire Wolf
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Djinni
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Doppelganger
+2024-08-11 21:12:26,801 - DEBUG - Fetching data for monsters item: Draft Horse
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Dragon Turtle
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Dretch
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Drider
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Drow
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Druid
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Dryad
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Duergar
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Dust Mephit
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Eagle
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Earth Elemental
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Efreeti
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Elephant
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Elk
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Erinyes
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Ettercap
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Ettin
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Fire Elemental
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Fire Giant
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Flesh Golem
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Flying Snake
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Flying Sword
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Frog
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Frost Giant
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Gargoyle
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Gelatinous Cube
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Ghast
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Ghost
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Ghoul
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Ape
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Badger
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Bat
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Boar
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Centipede
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Constrictor Snake
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Crab
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Crocodile
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Eagle
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Elk
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Fire Beetle
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Frog
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Goat
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Hyena
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Lizard
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Octopus
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Owl
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Poisonous Snake
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Rat
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Rat (Diseased)
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Scorpion
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Sea Horse
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Shark
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Spider
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Toad
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Vulture
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Wasp
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Weasel
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Giant Wolf Spider
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Gibbering Mouther
+2024-08-11 21:12:26,802 - DEBUG - Fetching data for monsters item: Glabrezu
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Gladiator
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Gnoll
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Goat
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Goblin
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Gold Dragon Wyrmling
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Gorgon
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Gray Ooze
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Green Dragon Wyrmling
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Green Hag
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Grick
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Griffon
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Grimlock
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Guard
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Guardian Naga
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Gynosphinx
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Half-Red Dragon Veteran
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Harpy
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hawk
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hell Hound
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hezrou
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hill Giant
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hippogriff
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hobgoblin
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Homunculus
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Horned Devil
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hunter Shark
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hydra
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Hyena
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Ice Devil
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Ice Mephit
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Imp
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Invisible Stalker
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Iron Golem
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Jackal
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Killer Whale
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Knight
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Kobold
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Kraken
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Lamia
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Lemure
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Lich
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Lion
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Lizard
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Lizardfolk
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Mage
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Magma Mephit
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Magmin
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Mammoth
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Manticore
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Marilith
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Mastiff
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Medusa
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Merfolk
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Merrow
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Mimic
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Minotaur
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Minotaur Skeleton
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Mule
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Mummy
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Mummy Lord
+2024-08-11 21:12:26,803 - DEBUG - Fetching data for monsters item: Nalfeshnee
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Night Hag
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Nightmare
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Noble
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Ochre Jelly
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Octopus
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Ogre
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Ogre Zombie
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Oni
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Orc
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Otyugh
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Owl
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Owlbear
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Panther
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Pegasus
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Phase Spider
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Pit Fiend
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Planetar
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Plesiosaurus
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Poisonous Snake
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Polar Bear
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Pony
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Priest
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Pseudodragon
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Purple Worm
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Quasit
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Quipper
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Rakshasa
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Rat
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Raven
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Red Dragon Wyrmling
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Reef Shark
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Remorhaz
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Rhinoceros
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Riding Horse
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Roc
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Roper
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Rug of Smothering
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Rust Monster
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Saber-Toothed Tiger
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Sahuagin
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Salamander
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Satyr
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Scorpion
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Scout
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Sea Hag
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Sea Horse
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Shadow
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Shambling Mound
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Shield Guardian
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Shrieker
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Silver Dragon Wyrmling
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Skeleton
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Solar
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Specter
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Spider
+2024-08-11 21:12:26,804 - DEBUG - Fetching data for monsters item: Spirit Naga
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Sprite
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Spy
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Steam Mephit
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Stirge
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Stone Giant
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Stone Golem
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Storm Giant
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Succubus/Incubus
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Bats
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Beetles
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Centipedes
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Insects
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Poisonous Snakes
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Quippers
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Rats
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Ravens
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Spiders
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Swarm of Wasps
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Tarrasque
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Thug
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Tiger
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Treant
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Tribal Warrior
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Triceratops
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Troll
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Tyrannosaurus Rex
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Unicorn
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Vampire, Bat Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Vampire, Mist Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Vampire Spawn
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Vampire, Vampire Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Veteran
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Violet Fungus
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Vrock
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Vulture
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Warhorse
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Warhorse Skeleton
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Water Elemental
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Weasel
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Werebear, Bear Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Werebear, Human Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Werebear, Hybrid Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wereboar, Boar Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wereboar, Human Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wereboar, Hybrid Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wererat, Human Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wererat, Hybrid Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wererat, Rat Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Weretiger, Human Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Weretiger, Hybrid Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Weretiger, Tiger Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Werewolf, Human Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Werewolf, Hybrid Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Werewolf, Wolf Form
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: White Dragon Wyrmling
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wight
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Will-o'-Wisp
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Winter Wolf
+2024-08-11 21:12:26,805 - DEBUG - Fetching data for monsters item: Wolf
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Worg
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Wraith
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Wyvern
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Xorn
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Black Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Blue Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Brass Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Bronze Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Copper Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Gold Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Green Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Red Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young Silver Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Young White Dragon
+2024-08-11 21:12:26,806 - DEBUG - Fetching data for monsters item: Zombie
+2024-08-11 21:12:28,592 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:29,843 - INFO - Batch 1 for section monsters written to file monsters_details_compact.txt.
+2024-08-11 21:12:29,844 - INFO - Fetching all items from section: /api/proficiencies
+2024-08-11 21:12:29,874 - DEBUG - Retrieved /api/proficiencies list with 117 items.
+2024-08-11 21:12:29,875 - INFO - Calculated optimal batch size: 43409
+2024-08-11 21:12:29,875 - INFO - Starting to fetch proficiencies data with dynamic worker adjustment...
+2024-08-11 21:12:29,875 - INFO - Processing batch 1/1 for section: proficiencies
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Alchemist's Supplies
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: All armor
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Bagpipes
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Battleaxes
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Blowguns
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Breastplate
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Brewer's Supplies
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Calligrapher's Supplies
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Carpenter's Tools
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Cartographer's Tools
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Chain Mail
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Chain Shirt
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Clubs
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Cobbler's Tools
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Cook's utensils
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Crossbows, heavy
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Crossbows, light
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Daggers
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Darts
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Dice Set
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Disguise Kit
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Drum
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Dulcimer
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Flails
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Flute
+2024-08-11 21:12:29,876 - DEBUG - Fetching data for proficiencies item: Forgery Kit
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Glaives
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Glassblower's Tools
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Greataxes
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Greatclubs
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Greatswords
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Halberds
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Half Plate Armor
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Hand crossbows
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Handaxes
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Heavy Armor
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Herbalism Kit
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Hide Armor
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Horn
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Javelins
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Jeweler's Tools
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Lances
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Land Vehicles
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Leather Armor
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Leatherworker's Tools
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Light Armor
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Light hammers
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Longbows
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Longswords
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Lute
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Lyre
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Maces
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Martial Weapons
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Mason's Tools
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Mauls
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Medium Armor
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Morningstars
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Navigator's Tools
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Nets
+2024-08-11 21:12:29,877 - DEBUG - Fetching data for proficiencies item: Padded Armor
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Painter's Supplies
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Pan flute
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Pikes
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Plate Armor
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Playing Card Set
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Poisoner's Kit
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Potter's Tools
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Quarterstaffs
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Rapiers
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Ring Mail
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Saving Throw: CHA
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Saving Throw: CON
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Saving Throw: DEX
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Saving Throw: INT
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Saving Throw: STR
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Saving Throw: WIS
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Scale Mail
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Scimitars
+2024-08-11 21:12:29,878 - DEBUG - Fetching data for proficiencies item: Shawm
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Shields
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Shortbows
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Shortswords
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Sickles
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Simple Weapons
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Acrobatics
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Animal Handling
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Arcana
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Athletics
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Deception
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: History
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Insight
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Intimidation
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Investigation
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Medicine
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Nature
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Perception
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Performance
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Persuasion
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Religion
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Sleight of Hand
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Stealth
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Skill: Survival
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Slings
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Smith's Tools
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Spears
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Splint Armor
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Studded Leather Armor
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Thieves' Tools
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Tinker's Tools
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Tridents
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Viol
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: War picks
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Warhammers
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Water Vehicles
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Weaver's Tools
+2024-08-11 21:12:29,879 - DEBUG - Fetching data for proficiencies item: Whips
+2024-08-11 21:12:29,880 - DEBUG - Fetching data for proficiencies item: Woodcarver's Tools
+2024-08-11 21:12:30,594 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:30,746 - INFO - Batch 1 for section proficiencies written to file proficiencies_details_compact.txt.
+2024-08-11 21:12:30,746 - INFO - Fetching all items from section: /api/races
+2024-08-11 21:12:30,768 - DEBUG - Retrieved /api/races list with 9 items.
+2024-08-11 21:12:30,768 - INFO - Calculated optimal batch size: 43077
+2024-08-11 21:12:30,768 - INFO - Starting to fetch races data with dynamic worker adjustment...
+2024-08-11 21:12:30,768 - INFO - Processing batch 1/1 for section: races
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Dragonborn
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Dwarf
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Elf
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Gnome
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Half-Elf
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Half-Orc
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Halfling
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Human
+2024-08-11 21:12:30,769 - DEBUG - Fetching data for races item: Tiefling
+2024-08-11 21:12:30,803 - INFO - Batch 1 for section races written to file races_details_compact.txt.
+2024-08-11 21:12:30,803 - INFO - Fetching all items from section: /api/rule-sections
+2024-08-11 21:12:30,820 - DEBUG - Retrieved /api/rule-sections list with 33 items.
+2024-08-11 21:12:30,821 - INFO - Calculated optimal batch size: 42969
+2024-08-11 21:12:30,821 - INFO - Starting to fetch rule-sections data with dynamic worker adjustment...
+2024-08-11 21:12:30,821 - INFO - Processing batch 1/1 for section: rule-sections
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Ability Checks
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Ability Scores and Modifiers
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Actions in Combat
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Activating an Item
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Advantage and Disadvantage
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Attunement
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Between Adventures
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Casting a Spell
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Cover
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Damage and Healing
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Diseases
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Fantasy-Historical Pantheons
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Madness
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Making an Attack
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Mounted Combat
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Movement
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Movement and Position
+2024-08-11 21:12:30,822 - DEBUG - Fetching data for rule-sections item: Objects
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Poisons
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Proficiency Bonus
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Resting
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Saving Throws
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Sentient Magic Items
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Standard Exchange Rates
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: The Environment
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: The Order of Combat
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: The Planes of Existence
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Time
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Traps
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Underwater Combat
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Using Each Ability
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: Wearing and Wielding Items
+2024-08-11 21:12:30,823 - DEBUG - Fetching data for rule-sections item: What Is a Spell?
+2024-08-11 21:12:30,913 - INFO - Batch 1 for section rule-sections written to file rule-sections_details_compact.txt.
+2024-08-11 21:12:30,913 - INFO - Fetching all items from section: /api/rules
+2024-08-11 21:12:30,927 - DEBUG - Retrieved /api/rules list with 6 items.
+2024-08-11 21:12:30,927 - INFO - Calculated optimal batch size: 42980
+2024-08-11 21:12:30,928 - INFO - Starting to fetch rules data with dynamic worker adjustment...
+2024-08-11 21:12:30,928 - INFO - Processing batch 1/1 for section: rules
+2024-08-11 21:12:30,928 - DEBUG - Fetching data for rules item: Adventuring
+2024-08-11 21:12:30,928 - DEBUG - Fetching data for rules item: Appendix
+2024-08-11 21:12:30,928 - DEBUG - Fetching data for rules item: Combat
+2024-08-11 21:12:30,928 - DEBUG - Fetching data for rules item: Equipment
+2024-08-11 21:12:30,928 - DEBUG - Fetching data for rules item: Spellcasting
+2024-08-11 21:12:30,928 - DEBUG - Fetching data for rules item: Using Ability Scores
+2024-08-11 21:12:30,952 - INFO - Batch 1 for section rules written to file rules_details_compact.txt.
+2024-08-11 21:12:30,952 - INFO - Fetching all items from section: /api/skills
+2024-08-11 21:12:30,969 - DEBUG - Retrieved /api/skills list with 18 items.
+2024-08-11 21:12:30,969 - INFO - Calculated optimal batch size: 42994
+2024-08-11 21:12:30,969 - INFO - Starting to fetch skills data with dynamic worker adjustment...
+2024-08-11 21:12:30,970 - INFO - Processing batch 1/1 for section: skills
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Acrobatics
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Animal Handling
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Arcana
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Athletics
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Deception
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: History
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Insight
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Intimidation
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Investigation
+2024-08-11 21:12:30,970 - DEBUG - Fetching data for skills item: Medicine
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Nature
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Perception
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Performance
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Persuasion
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Religion
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Sleight of Hand
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Stealth
+2024-08-11 21:12:30,971 - DEBUG - Fetching data for skills item: Survival
+2024-08-11 21:12:31,011 - INFO - Batch 1 for section skills written to file skills_details_compact.txt.
+2024-08-11 21:12:31,011 - INFO - Fetching all items from section: /api/spells
+2024-08-11 21:12:31,045 - DEBUG - Retrieved /api/spells list with 319 items.
+2024-08-11 21:12:31,045 - INFO - Calculated optimal batch size: 43593
+2024-08-11 21:12:31,046 - INFO - Starting to fetch spells data with dynamic worker adjustment...
+2024-08-11 21:12:31,046 - INFO - Processing batch 1/1 for section: spells
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Acid Arrow
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Acid Splash
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Aid
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Alarm
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Alter Self
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Animal Friendship
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Animal Messenger
+2024-08-11 21:12:31,048 - DEBUG - Fetching data for spells item: Animal Shapes
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Animate Dead
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Animate Objects
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Antilife Shell
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Antimagic Field
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Antipathy/Sympathy
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Arcane Eye
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Arcane Hand
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Arcane Lock
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Arcane Sword
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Arcanist's Magic Aura
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Astral Projection
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Augury
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Awaken
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Bane
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Banishment
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Barkskin
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Beacon of Hope
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Bestow Curse
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Black Tentacles
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Blade Barrier
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Bless
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Blight
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Blindness/Deafness
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Blink
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Blur
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Branding Smite
+2024-08-11 21:12:31,049 - DEBUG - Fetching data for spells item: Burning Hands
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Call Lightning
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Calm Emotions
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Chain Lightning
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Charm Person
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Chill Touch
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Circle of Death
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Clairvoyance
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Clone
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Cloudkill
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Color Spray
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Command
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Commune
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Commune With Nature
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Comprehend Languages
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Compulsion
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Cone of Cold
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Confusion
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Conjure Animals
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Conjure Celestial
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Conjure Elemental
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Conjure Fey
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Conjure Minor Elementals
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Conjure Woodland Beings
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Contact Other Plane
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Contagion
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Contingency
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Continual Flame
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Control Water
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Control Weather
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Counterspell
+2024-08-11 21:12:31,050 - DEBUG - Fetching data for spells item: Create Food and Water
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Create or Destroy Water
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Create Undead
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Creation
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Cure Wounds
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Dancing Lights
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Darkness
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Darkvision
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Daylight
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Death Ward
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Delayed Blast Fireball
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Demiplane
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Detect Evil and Good
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Detect Magic
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Detect Poison and Disease
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Detect Thoughts
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Dimension Door
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Disguise Self
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Disintegrate
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Dispel Evil and Good
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Dispel Magic
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Divination
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Divine Favor
+2024-08-11 21:12:31,051 - DEBUG - Fetching data for spells item: Divine Word
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Dominate Beast
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Dominate Monster
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Dominate Person
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Dream
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Druidcraft
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Earthquake
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Eldritch Blast
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Enhance Ability
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Enlarge/Reduce
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Entangle
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Enthrall
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Etherealness
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Expeditious Retreat
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Eyebite
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Fabricate
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Faerie Fire
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Faithful Hound
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: False Life
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Fear
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Feather Fall
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Feeblemind
+2024-08-11 21:12:31,052 - DEBUG - Fetching data for spells item: Find Familiar
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Find Steed
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Find the Path
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Find Traps
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Finger of Death
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Fire Bolt
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Fire Shield
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Fire Storm
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Fireball
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Flame Blade
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Flame Strike
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Flaming Sphere
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Flesh to Stone
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Floating Disk
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Fly
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Fog Cloud
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Forbiddance
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Forcecage
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Foresight
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Freedom of Movement
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Freezing Sphere
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Gaseous Form
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Gate
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Geas
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Gentle Repose
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Giant Insect
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Glibness
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Globe of Invulnerability
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Glyph of Warding
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Goodberry
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Grease
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Greater Invisibility
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Greater Restoration
+2024-08-11 21:12:31,053 - DEBUG - Fetching data for spells item: Guardian of Faith
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Guards and Wards
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Guidance
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Guiding Bolt
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Gust of Wind
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hallow
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hallucinatory Terrain
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Harm
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Haste
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Heal
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Healing Word
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Heat Metal
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hellish Rebuke
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Heroes' Feast
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Heroism
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hideous Laughter
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hold Monster
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hold Person
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Holy Aura
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hunter's Mark
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Hypnotic Pattern
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Ice Storm
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Identify
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Illusory Script
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Imprisonment
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Incendiary Cloud
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Inflict Wounds
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Insect Plague
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Instant Summons
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Invisibility
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Irresistible Dance
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Jump
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Knock
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Legend Lore
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Lesser Restoration
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Levitate
+2024-08-11 21:12:31,054 - DEBUG - Fetching data for spells item: Light
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Lightning Bolt
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Locate Animals or Plants
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Locate Creature
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Locate Object
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Longstrider
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mage Armor
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mage Hand
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Magic Circle
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Magic Jar
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Magic Missile
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Magic Mouth
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Magic Weapon
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Magnificent Mansion
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Major Image
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mass Cure Wounds
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mass Heal
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mass Healing Word
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mass Suggestion
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Maze
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Meld Into Stone
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mending
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Message
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Meteor Swarm
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mind Blank
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Minor Illusion
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mirage Arcane
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mirror Image
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Mislead
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Misty Step
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Modify Memory
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Moonbeam
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Move Earth
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Nondetection
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Pass Without Trace
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Passwall
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Phantasmal Killer
+2024-08-11 21:12:31,055 - DEBUG - Fetching data for spells item: Phantom Steed
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Planar Ally
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Planar Binding
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Plane Shift
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Plant Growth
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Poison Spray
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Polymorph
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Power Word Kill
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Power Word Stun
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Prayer of Healing
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Prestidigitation
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Prismatic Spray
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Prismatic Wall
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Private Sanctum
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Produce Flame
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Programmed Illusion
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Project Image
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Protection From Energy
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Protection from Evil and Good
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Protection from Poison
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Purify Food and Drink
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Raise Dead
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Ray of Enfeeblement
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Ray of Frost
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Regenerate
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Reincarnate
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Remove Curse
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Resilient Sphere
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Resistance
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Resurrection
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Reverse Gravity
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Revivify
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Rope Trick
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Sacred Flame
+2024-08-11 21:12:31,056 - DEBUG - Fetching data for spells item: Sanctuary
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Scorching Ray
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Scrying
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Secret Chest
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: See Invisibility
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Seeming
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Sending
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Sequester
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Shapechange
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Shatter
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Shield
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Shield of Faith
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Shillelagh
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Shocking Grasp
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Silence
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Silent Image
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Simulacrum
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Sleep
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Sleet Storm
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Slow
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Spare the Dying
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Speak with Animals
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Speak with Dead
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Speak with Plants
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Spider Climb
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Spike Growth
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Spirit Guardians
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Spiritual Weapon
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Stinking Cloud
+2024-08-11 21:12:31,057 - DEBUG - Fetching data for spells item: Stone Shape
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Stoneskin
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Storm of Vengeance
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Suggestion
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Sunbeam
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Sunburst
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Symbol
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Telekinesis
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Telepathic Bond
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Teleport
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Teleportation Circle
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Thaumaturgy
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Thunderwave
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Time Stop
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Tiny Hut
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Tongues
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Transport via Plants
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Tree Stride
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: True Polymorph
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: True Resurrection
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: True Seeing
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: True Strike
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Unseen Servant
+2024-08-11 21:12:31,058 - DEBUG - Fetching data for spells item: Vampiric Touch
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Vicious Mockery
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wall of Fire
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wall of Force
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wall of Ice
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wall of Stone
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wall of Thorns
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Warding Bond
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Water Breathing
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Water Walk
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Web
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Weird
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wind Walk
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wind Wall
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Wish
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Word of Recall
+2024-08-11 21:12:31,059 - DEBUG - Fetching data for spells item: Zone of Truth
+2024-08-11 21:12:32,596 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:33,815 - INFO - Batch 1 for section spells written to file spells_details_compact.txt.
+2024-08-11 21:12:33,816 - INFO - Fetching all items from section: /api/subclasses
+2024-08-11 21:12:33,836 - DEBUG - Retrieved /api/subclasses list with 12 items.
+2024-08-11 21:12:33,837 - INFO - Calculated optimal batch size: 42678
+2024-08-11 21:12:33,837 - INFO - Starting to fetch subclasses data with dynamic worker adjustment...
+2024-08-11 21:12:33,837 - INFO - Processing batch 1/1 for section: subclasses
+2024-08-11 21:12:33,837 - DEBUG - Fetching data for subclasses item: Berserker
+2024-08-11 21:12:33,837 - DEBUG - Fetching data for subclasses item: Champion
+2024-08-11 21:12:33,837 - DEBUG - Fetching data for subclasses item: Devotion
+2024-08-11 21:12:33,837 - DEBUG - Fetching data for subclasses item: Draconic
+2024-08-11 21:12:33,837 - DEBUG - Fetching data for subclasses item: Evocation
+2024-08-11 21:12:33,837 - DEBUG - Fetching data for subclasses item: Fiend
+2024-08-11 21:12:33,837 - DEBUG - Fetching data for subclasses item: Hunter
+2024-08-11 21:12:33,838 - DEBUG - Fetching data for subclasses item: Land
+2024-08-11 21:12:33,838 - DEBUG - Fetching data for subclasses item: Life
+2024-08-11 21:12:33,838 - DEBUG - Fetching data for subclasses item: Lore
+2024-08-11 21:12:33,838 - DEBUG - Fetching data for subclasses item: Open Hand
+2024-08-11 21:12:33,838 - DEBUG - Fetching data for subclasses item: Thief
+2024-08-11 21:12:33,890 - INFO - Batch 1 for section subclasses written to file subclasses_details_compact.txt.
+2024-08-11 21:12:33,890 - INFO - Fetching all items from section: /api/subraces
+2024-08-11 21:12:33,909 - DEBUG - Retrieved /api/subraces list with 4 items.
+2024-08-11 21:12:33,909 - INFO - Calculated optimal batch size: 42031
+2024-08-11 21:12:33,909 - INFO - Starting to fetch subraces data with dynamic worker adjustment...
+2024-08-11 21:12:33,909 - INFO - Processing batch 1/1 for section: subraces
+2024-08-11 21:12:33,909 - DEBUG - Fetching data for subraces item: High Elf
+2024-08-11 21:12:33,909 - DEBUG - Fetching data for subraces item: Hill Dwarf
+2024-08-11 21:12:33,909 - DEBUG - Fetching data for subraces item: Lightfoot Halfling
+2024-08-11 21:12:33,909 - DEBUG - Fetching data for subraces item: Rock Gnome
+2024-08-11 21:12:33,931 - INFO - Batch 1 for section subraces written to file subraces_details_compact.txt.
+2024-08-11 21:12:33,931 - INFO - Fetching all items from section: /api/traits
+2024-08-11 21:12:33,953 - DEBUG - Retrieved /api/traits list with 38 items.
+2024-08-11 21:12:33,953 - INFO - Calculated optimal batch size: 42364
+2024-08-11 21:12:33,953 - INFO - Starting to fetch traits data with dynamic worker adjustment...
+2024-08-11 21:12:33,953 - INFO - Processing batch 1/1 for section: traits
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Artificer's Lore
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Brave
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Breath Weapon
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Damage Resistance
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Darkvision
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Black)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Blue)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Brass)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Bronze)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Copper)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Gold)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Green)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Red)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (Silver)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Draconic Ancestry (White)
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Dwarven Combat Training
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Dwarven Resilience
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Dwarven Toughness
+2024-08-11 21:12:33,954 - DEBUG - Fetching data for traits item: Elf Weapon Training
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Extra Language
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Fey Ancestry
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Gnome Cunning
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Halfling Nimbleness
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Hellish Resistance
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: High Elf Cantrip
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Infernal Legacy
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Keen Senses
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Lucky
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Menacing
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Naturally Stealthy
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Relentless Endurance
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Savage Attacks
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Skill Versatility
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Stonecunning
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Tinker
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Tool Proficiency
+2024-08-11 21:12:33,955 - DEBUG - Fetching data for traits item: Trance
+2024-08-11 21:12:34,597 - INFO - Avg latency: 1.00s, Avg throughput: 0.00MB/s
+2024-08-11 21:12:34,734 - INFO - Batch 1 for section traits written to file traits_details_compact.txt.
+2024-08-11 21:12:34,735 - INFO - Fetching all items from section: /api/weapon-properties
+2024-08-11 21:12:34,750 - DEBUG - Retrieved /api/weapon-properties list with 11 items.
+2024-08-11 21:12:34,751 - INFO - Calculated optimal batch size: 42264
+2024-08-11 21:12:34,751 - INFO - Starting to fetch weapon-properties data with dynamic worker adjustment...
+2024-08-11 21:12:34,751 - INFO - Processing batch 1/1 for section: weapon-properties
+2024-08-11 21:12:34,752 - DEBUG - Fetching data for weapon-properties item: Ammunition
+2024-08-11 21:12:34,752 - DEBUG - Fetching data for weapon-properties item: Finesse
+2024-08-11 21:12:34,752 - DEBUG - Fetching data for weapon-properties item: Heavy
+2024-08-11 21:12:34,752 - DEBUG - Fetching data for weapon-properties item: Light
+2024-08-11 21:12:34,752 - DEBUG - Fetching data for weapon-properties item: Loading
+2024-08-11 21:12:34,752 - DEBUG - Fetching data for weapon-properties item: Monk
+2024-08-11 21:12:34,753 - DEBUG - Fetching data for weapon-properties item: Reach
+2024-08-11 21:12:34,753 - DEBUG - Fetching data for weapon-properties item: Special
+2024-08-11 21:12:34,753 - DEBUG - Fetching data for weapon-properties item: Thrown
+2024-08-11 21:12:34,753 - DEBUG - Fetching data for weapon-properties item: Two-Handed
+2024-08-11 21:12:34,753 - DEBUG - Fetching data for weapon-properties item: Versatile
+2024-08-11 21:12:34,781 - INFO - Batch 1 for section weapon-properties written to file weapon-properties_details_compact.txt.
+2024-08-11 21:12:34,782 - INFO - All sections have been processed and saved to separate files.
